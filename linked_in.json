@@ -1,0 +1,1016 @@
+{
+  "name": "Vinay Ramkrishnan",
+  "first_name": "Vinay",
+  "last_name": "Ramkrishnan",
+  "title": "Graduate Student (MSIT-Mobility) - Carnegie Mellon University",
+  "location": "Pittsburgh",
+  "country": "Pennsylvania",
+  "industry": "Information Technology and Services",
+  "summary": "I am a MSIT - Mobility, graduate student at Carnegie Mellon University graduating in December 2015. I am actively seeking software development roles. A brief description of my work below: Mobile technology enthusiast, with a extensive experience in android application development for handsets, tablets, Google TV, Google Glass and Android Wearables!. Possess good analytical and development skills, that have helped me tackle challenges during the course of several challenging, popular and highly successful android applications. Have experience of working on android back in the days when Android Donut versions were popular in the market. Have literally seen the platform evolve to what it is today. I also have considerable amount of experience in developing J2ME applications and games, specifically for Nokia Asha Series of phone.",
+  "picture": "https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/5/005/0b4/231/130e2e3.jpg",
+  "projects": [
+    {
+      "title": "QuiltView ++",
+      "link": null,
+      "start_date": "2014-08-01",
+      "end_date": "2014-11-01",
+      "description": "A Real-time Streaming Channel on Google Glass that allows Glass users to start a streaming channel so that other users can watch a live video stream through a web app. ",
+      "associates": null
+    },
+    {
+      "title": "Some Projects I have worked on below:",
+      "link": null,
+      "start_date": "2011-06-01",
+      "end_date": "2014-07-01",
+      "description": "Credit karma - Android (http://bit.ly/1Aq07FM)\nGrammys App - Android (http://bit.ly/1AIbHMk)\nJunowallet - Android (http://bit.ly/1vZZLRJ)\nPostcard On The Run - Android (http://bit.ly/1J3R2bA)\nPayOne Android Library\nMemorySafe - Android + Google TV\nExpensIT - Android\nBudgIT - Android\n\nTuneWiki - For Nokia (Full Touch, Touch & Type handsets)\nShaktimaan Game - For Nokia touch and type and Non Touch Handsets.\nWhere's My Water Game - For Nokia Full Touch Phone (Asha 311)\n\nAnd Many more....",
+      "associates": null
+    },
+    {
+      "title": "Pointshelf",
+      "link": "http://www.linkedin.com/redir/redirect?url=https%3A%2F%2Fplay%2Egoogle%2Ecom%2Fstore%2Fapps%2Fdetails%3Fid%3Dcom%2Epointshelf%26hl%3Den&urlhash=KeNK&trk=prof-project-name-link",
+      "start_date": "2011-11-01",
+      "end_date": "2014-08-01",
+      "description": "App development...design implementation..architecture...basically involved in every possible development phase of this app..",
+      "associates": [
+        "Vinay Ramkrishnan",
+        "NEil AGArwal",
+        "Shiladitya Mukhopadhyaya",
+        "Priyo Patra",
+        "Ganesh Mannamal",
+        "Grishma Rao"
+      ]
+    },
+    {
+      "title": "Social Media Framework",
+      "link": null,
+      "start_date": "2010-06-01",
+      "end_date": "2011-02-01",
+      "description": "Social media framework for Android, is an integrated jar/package that can be used by any android mobile application. This jar will integrate features and functionalities of some popular social networking websites like Twitter, Facebook, and MySpace etc which can be used by other android mobile application to provide direct access to users’ accounts on these websites. \nThis project was undertaken under the guidance of Xoriant Solutions Pvt Ltd.",
+      "associates": null
+    },
+    {
+      "title": "EDigs Application",
+      "link": "http://www.linkedin.com/redir/redirect?url=https%3A%2F%2Fplay%2Egoogle%2Ecom%2Fstore%2Fapps%2Fdetails%3Fid%3Dcom%2Ehomescore&urlhash=3wxl&trk=prof-project-name-link",
+      "start_date": "2014-09-01",
+      "end_date": null,
+      "description": "EcoDigs explores multi-stakeholder interactions around tenant/landlord decision making. Our research looks into at the interactions within and around a crowdsourcing model for collecting lifestyle and cost information that can support the house-hunting process, and if this interaction may be leveraged to improve the safety, efficiency and quality of life choices made by tenants during their house hunt.",
+      "associates": null
+    },
+    {
+      "title": "Cura - Patient Care Health Management System",
+      "link": "http://www.linkedin.com/redir/redirect?url=https%3A%2F%2Fgithub%2Ecom%2Fshrimalmadhur%2FCura&urlhash=BzOk&trk=prof-project-name-link",
+      "start_date": "2015-01-01",
+      "end_date": "2015-04-01",
+      "description": " Developed a health care management system which collects data from various wearables devices and visualize them on a web/mobile based dashboard\n- As a part of the Wearables team, built an Android application which runs a data collection service which collects data from wearables devices like Zephyr Bioharness 3, iHealth (BP & SPO2), Withings Pule Oxymeter devices and send it to the database server.\n- As a part of Dashboard team, developed a web based dashboard using ionic platform and AngularJS to develop patient management user interfaces and push notifications.",
+      "associates": [
+        "Vinay Ramkrishnan",
+        "Madhur Shrimal",
+        "Akshay Pushparaja",
+        "Archana Iyer"
+      ]
+    },
+    {
+      "title": "Query the Crowd",
+      "link": "http://www.linkedin.com/redir/redirect?url=https%3A%2F%2Ftwitter%2Ecom%2FQuery_The_Crowd&urlhash=_C7J&trk=prof-project-name-link",
+      "start_date": "2015-04-01",
+      "end_date": null,
+      "description": "- Created a crowd sourced twitter bot which takes questions from users on twitter and responds with the most popular answer from the crowd and pprovides a live update of answers on a responsive web page\n- Answers obtained by programmatically posting the questions on the crowd sourcing platform, Amazon mechanical Turk\n- Technologies used: Node JS, JavaScript, JQuery, Python, Python Shell, Twitter API, D3, Amazon Mechanical Tuks APIs.",
+      "associates": [
+        "Vinay Ramkrishnan",
+        "Archana Iyer",
+        "Daniel Shlyuger"
+      ]
+    }
+  ],
+  "linkedin_url": "https://www.linkedin.com/pub/vinay-ramkrishnan/45/969/342",
+  "education": [
+    {
+      "name": "Carnegie Mellon University",
+      "description": "Master's degree, Information Technology - Mobility",
+      "degree": "Master's degree",
+      "major": "Information Technology - Mobility",
+      "period": "2014 – 2015",
+      "start_date": "2014",
+      "end_date": "2015"
+    },
+    {
+      "name": "University of Mumbai",
+      "description": "B.E, I.T",
+      "degree": "B.E",
+      "major": "I.T",
+      "period": "2007 – 2011",
+      "start_date": "2007",
+      "end_date": "2011"
+    },
+    {
+      "name": "Kendriya Vidyalaya",
+      "description": "CBSE, Computer Science",
+      "degree": "CBSE, Computer Science",
+      "major": null,
+      "period": "2005 – 2007",
+      "start_date": "2005",
+      "end_date": "2007"
+    },
+    {
+      "name": "Hiranandani Foundation School Powai",
+      "description": "ICSE, Maths Physics, Chemistry, Computer Science",
+      "degree": "ICSE, Maths Physics, Chemistry, Computer Science",
+      "major": null,
+      "period": "1994 – 2005",
+      "start_date": "1994",
+      "end_date": "2005"
+    }
+  ],
+  "groups": [
+    {
+      "name": "CyberCoders Tech",
+      "link": "http://www.linkedin.comhttp://www.linkedin.com/groups?gid=2212712&goback=%2Enpp_vinay*5ramkrishnan%2F45%2F969%2F342&trk=fulpro_grplogo"
+    },
+    {
+      "name": "Android & iPhone Freelance App Developers",
+      "link": "http://www.linkedin.comhttp://www.linkedin.com/groups?gid=4473623&goback=%2Enpp_vinay*5ramkrishnan%2F45%2F969%2F342&trk=fulpro_grplogo"
+    },
+    {
+      "name": "Android Freelance Group",
+      "link": "http://www.linkedin.comhttp://www.linkedin.com/groups?gid=4231988&goback=%2Enpp_vinay*5ramkrishnan%2F45%2F969%2F342&trk=fulpro_grplogo"
+    },
+    {
+      "name": "Hiranandani Foundation School",
+      "link": "http://www.linkedin.comhttp://www.linkedin.com/groups?gid=4685473&goback=%2Enpp_vinay*5ramkrishnan%2F45%2F969%2F342&trk=fulpro_grplogo"
+    },
+    {
+      "name": "IT Job Postings",
+      "link": "http://www.linkedin.comhttp://www.linkedin.com/groups?gid=4094871&goback=%2Enpp_vinay*5ramkrishnan%2F45%2F969%2F342&trk=fulpro_grplogo"
+    },
+    {
+      "name": "Mobile Freelancing",
+      "link": "http://www.linkedin.comhttp://www.linkedin.com/groups?gid=4601063&goback=%2Enpp_vinay*5ramkrishnan%2F45%2F969%2F342&trk=fulpro_grplogo"
+    },
+    {
+      "name": "Android , ios , BlackBerry Mobile Masters and Trainers",
+      "link": "http://www.linkedin.comhttp://www.linkedin.com/groups?gid=4512117&goback=%2Enpp_vinay*5ramkrishnan%2F45%2F969%2F342&trk=fulpro_grplogo"
+    },
+    {
+      "name": "TPM / Techpost Media",
+      "link": "http://www.linkedin.comhttp://www.linkedin.com/groups?gid=2931633&goback=%2Enpp_vinay*5ramkrishnan%2F45%2F969%2F342&trk=fulpro_grplogo"
+    },
+    {
+      "name": "Freelance / Contract Android Jobs Europe",
+      "link": "http://www.linkedin.comhttp://www.linkedin.com/groups?gid=3973247&goback=%2Enpp_vinay*5ramkrishnan%2F45%2F969%2F342&trk=fulpro_grplogo"
+    },
+    {
+      "name": "Java Developers",
+      "link": "http://www.linkedin.comhttp://www.linkedin.com/groups?gid=70526&goback=%2Enpp_vinay*5ramkrishnan%2F45%2F969%2F342&trk=fulpro_grplogo"
+    },
+    {
+      "name": "Agnelites In The United States",
+      "link": "http://www.linkedin.comhttp://www.linkedin.com/groups?gid=8276541&goback=%2Enpp_vinay*5ramkrishnan%2F45%2F969%2F342&trk=fulpro_grplogo"
+    },
+    {
+      "name": "CMU-INI Alumni Mentorship Program (CIAMP)",
+      "link": "http://www.linkedin.comhttp://www.linkedin.com/groups?gid=5149813&goback=%2Enpp_vinay*5ramkrishnan%2F45%2F969%2F342&trk=fulpro_grplogo"
+    },
+    {
+      "name": "Android Lancers",
+      "link": "http://www.linkedin.comhttp://www.linkedin.com/groups?gid=5174199&goback=%2Enpp_vinay*5ramkrishnan%2F45%2F969%2F342&trk=fulpro_grplogo"
+    },
+    {
+      "name": "anDrOiDindia",
+      "link": "http://www.linkedin.comhttp://www.linkedin.com/groups?gid=1365117&goback=%2Enpp_vinay*5ramkrishnan%2F45%2F969%2F342&trk=fulpro_grplogo"
+    },
+    {
+      "name": "Software Development Jobs - Powered by IvyExec.com",
+      "link": "http://www.linkedin.comhttp://www.linkedin.com/groups?gid=1815840&goback=%2Enpp_vinay*5ramkrishnan%2F45%2F969%2F342&trk=fulpro_grplogo"
+    },
+    {
+      "name": "Mobile Phone Developer Jobs",
+      "link": "http://www.linkedin.comhttp://www.linkedin.com/groups?gid=1462037&goback=%2Enpp_vinay*5ramkrishnan%2F45%2F969%2F342&trk=fulpro_grplogo"
+    },
+    {
+      "name": "iPhone and Android Developer News Source",
+      "link": "http://www.linkedin.comhttp://www.linkedin.com/groups?gid=3626122&goback=%2Enpp_vinay*5ramkrishnan%2F45%2F969%2F342&trk=fulpro_grplogo"
+    },
+    {
+      "name": "Android Symbian J2ME",
+      "link": "http://www.linkedin.comhttp://www.linkedin.com/groups?gid=2111394&goback=%2Enpp_vinay*5ramkrishnan%2F45%2F969%2F342&trk=fulpro_grplogo"
+    },
+    {
+      "name": "Android Developer Jobs (3557312)",
+      "link": "http://www.linkedin.comhttp://www.linkedin.com/groups?gid=3557312&goback=%2Enpp_vinay*5ramkrishnan%2F45%2F969%2F342&trk=fulpro_grplogo"
+    },
+    {
+      "name": "Android Developer Job Opportunities",
+      "link": "http://www.linkedin.comhttp://www.linkedin.com/groups?gid=3737456&goback=%2Enpp_vinay*5ramkrishnan%2F45%2F969%2F342&trk=fulpro_grplogo"
+    },
+    {
+      "name": "Mobile Development Business",
+      "link": "http://www.linkedin.comhttp://www.linkedin.com/groups?gid=1374337&goback=%2Enpp_vinay*5ramkrishnan%2F45%2F969%2F342&trk=fulpro_grplogo"
+    }
+  ],
+  "websites": [
+
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "proficiency": "Native or bilingual proficiency"
+    },
+    {
+      "language": "Hindi",
+      "proficiency": "Native or bilingual proficiency"
+    },
+    {
+      "language": "Tamil",
+      "proficiency": "Full professional proficiency"
+    }
+  ],
+  "skills": [
+    "Android",
+    "Android Development",
+    "Mobile Applications",
+    "Java",
+    "Google Glass",
+    "Wearables",
+    "Core Java",
+    "Python",
+    "J2ME",
+    "Objective-C",
+    "MySQL",
+    "SQLite",
+    "SQL",
+    "JavaScript",
+    "Microsoft SQL Server",
+    "Web Development",
+    "XML",
+    "Eclipse",
+    "Web Services",
+    "Servlets",
+    "HTML",
+    "JDBC",
+    "JSP",
+    "Software Development",
+    "Databases",
+    "Visual Studio",
+    "Web Applications",
+    "Struts",
+    "Mobile Technology",
+    "Git",
+    "NetBeans",
+    "Data Structures",
+    "Tomcat",
+    "JSON",
+    "REST",
+    "Design Patterns",
+    "OOP",
+    "MVC",
+    "Subversion",
+    "Object Oriented Design",
+    "C",
+    "User Interface",
+    "User Experience",
+    "User Interface Design",
+    "Google API",
+    "Facebook API",
+    "Javas",
+    "CSS"
+  ],
+  "certifications": [
+
+  ],
+  "organizations": [
+
+  ],
+  "past_companies": [
+    {
+      "title": "Software Engineering Intern",
+      "company": "Uber",
+      "description": "I worked on building a library to monitor and measure the performance of the Uber Rider & Partner application on a real time basis using various monitoring metrics and parameters of measurement. This data can potentially be used for optimizing the application performance.",
+      "duration": "4 months",
+      "start_date": "2015-06-01",
+      "end_date": "2015-09-04",
+      "linkedin_company_url": "http://www.linkedin.com/company/1815218?trk=ppro_cprof",
+      "url": "http://www.uber.com",
+      "website": "http://www.uber.com",
+      "industry": "Internet",
+      "type": "Privately Held",
+      "company_size": "1001-5000 employees",
+      "founded": "2009"
+    },
+    {
+      "title": "Software Engineer",
+      "company": "Xoriant",
+      "description": "Extensive work on Android and J2ME mobile application development. Worked on several android applications for handsets, tablets and Google Tv. Applications in various domains like finance and payments, travel and lifestyle, music and video, entertainment, social, personalization and shopping etc. J2ME apps and games for Nokia series 40 phones and the new Asha series of phones.",
+      "duration": "3 years 2 months",
+      "start_date": "2011-06-01",
+      "end_date": "2014-07-03",
+      "linkedin_company_url": "http://www.linkedin.com/company/166996?trk=ppro_cprof",
+      "url": "http://www.xoriant.com",
+      "website": "http://www.xoriant.com",
+      "industry": "Information Technology and Services",
+      "type": "Privately Held",
+      "headquarters": "1248 Reamwood Avenue\n\nSunnyvale,\nCA\n94089\nUnited States",
+      "company_size": "1001-5000 employees",
+      "founded": "1990",
+      "address": "1248 Reamwood Avenue  Sunnyvale, CA 94089 United States"
+    },
+    {
+      "title": "Intern Software Engineer",
+      "company": "Xoriant Solutions Pvt Ltd",
+      "description": "During this period worked on a J2ME Mobile application that allows employees to check in their whereabouts within the office building. Also built the local server, database, web page using JSP, Servlets and MySQL, that gives admin access to employee check in data along with time logs.",
+      "duration": "4 months",
+      "start_date": "2010-04-01",
+      "end_date": "2010-07-04",
+      "linkedin_company_url": "http://www.linkedin.com/company/166996?trk=ppro_cprof",
+      "url": "http://www.xoriant.com",
+      "website": "http://www.xoriant.com",
+      "industry": "Information Technology and Services",
+      "type": "Privately Held",
+      "headquarters": "1248 Reamwood Avenue\n\nSunnyvale,\nCA\n94089\nUnited States",
+      "company_size": "1001-5000 employees",
+      "founded": "1990",
+      "address": "1248 Reamwood Avenue  Sunnyvale, CA 94089 United States"
+    }
+  ],
+  "current_companies": [
+    {
+      "title": "Research Assistant and Programmmer",
+      "company": "Carnegie Mellon University, Cylab",
+      "description": "Currently working on SafeSlinger Android - an open source key exchange library and messenger app",
+      "duration": "1 year 1 month",
+      "start_date": "2014-09-01",
+      "end_date": "2015-09-21",
+      "linkedin_company_url": "http://www.linkedin.com/company/3147?trk=ppro_cprof",
+      "url": "http://www.cmu.edu",
+      "website": "http://www.cmu.edu",
+      "industry": "Higher Education",
+      "type": "Educational Institution",
+      "headquarters": "5000 Forbes Avenue\n\nPittsburgh,\nPennsylvania\n15213\nUnited States",
+      "company_size": "5001-10,000 employees",
+      "founded": "1900",
+      "address": "5000 Forbes Avenue  Pittsburgh, Pennsylvania 15213 United States"
+    },
+    {
+      "title": "Research Assistant and Programmer",
+      "company": "Carnegie Mellon University, HCI Department",
+      "description": "Currently working on EcoDigs - a mobile based crowd-sourced affordable housing project with a Yelp-like interface.",
+      "duration": "1 year 1 month",
+      "start_date": "2014-09-01",
+      "end_date": "2015-09-21",
+      "linkedin_company_url": "http://www.linkedin.com/company/3147?trk=ppro_cprof",
+      "url": "http://www.cmu.edu",
+      "website": "http://www.cmu.edu",
+      "industry": "Higher Education",
+      "type": "Educational Institution",
+      "headquarters": "5000 Forbes Avenue\n\nPittsburgh,\nPennsylvania\n15213\nUnited States",
+      "company_size": "5001-10,000 employees",
+      "founded": "1900",
+      "address": "5000 Forbes Avenue  Pittsburgh, Pennsylvania 15213 United States"
+    },
+    {
+      "title": "Graduate Student - MSIT (MOB)",
+      "company": "Carnegie Mellon University",
+      "duration": "1 year 2 months",
+      "start_date": "2014-08-01",
+      "end_date": "2015-09-21",
+      "linkedin_company_url": "http://www.linkedin.com/company/3147?trk=ppro_cprof",
+      "url": "http://www.cmu.edu",
+      "website": "http://www.cmu.edu",
+      "industry": "Higher Education",
+      "type": "Educational Institution",
+      "headquarters": "5000 Forbes Avenue\n\nPittsburgh,\nPennsylvania\n15213\nUnited States",
+      "company_size": "5001-10,000 employees",
+      "founded": "1900",
+      "address": "5000 Forbes Avenue  Pittsburgh, Pennsylvania 15213 United States"
+    }
+  ],
+  "recommended_visitors": [
+    {
+      "link": "https://www.linkedin.com/pub/deepa-parameswaran/60/a6/739?trk=pub-pbmap",
+      "name": "Deepa Parameswaran",
+      "title": "Marketing Analytics and Social Media Strategy enthusiast | Graduate Student",
+      "company": "Carnegie Mellon University"
+    },
+    {
+      "link": "https://www.linkedin.com/pub/chrys-vandera/79/689/b28?trk=pub-pbmap",
+      "name": "Chrys Vandera",
+      "title": "Software Developer Internship",
+      "company": "Apple"
+    },
+    {
+      "link": "https://www.linkedin.com/pub/archana-iyer/99/b30/48a?trk=pub-pbmap",
+      "name": "Archana Iyer",
+      "title": "Graduate Student",
+      "company": "Carnegie Mellon University"
+    },
+    {
+      "link": "https://www.linkedin.com/pub/akshay-pushparaja/a/659/989?trk=pub-pbmap",
+      "name": "Akshay Pushparaja",
+      "title": "Graduate Student",
+      "company": "Carnegie Mellon University"
+    },
+    {
+      "link": "https://www.linkedin.com/pub/archie-agrawal/16/a53/b17?trk=pub-pbmap",
+      "name": "Archie Agrawal",
+      "title": "Graduate Student",
+      "company": "Carnegie Mellon | Actively seeking full time opportunities starting December 2015"
+    },
+    {
+      "link": "https://www.linkedin.com/pub/x-xinjilefu/16/471/162?trk=pub-pbmap",
+      "name": "X Xinjilefu",
+      "title": "Senior Engineer",
+      "company": "Uber"
+    },
+    {
+      "link": "https://www.linkedin.com/pub/wei-lu/26/515/2b2?trk=pub-pbmap",
+      "name": "Wei Lu",
+      "title": "Senior Engineer",
+      "company": "Uber ATC"
+    },
+    {
+      "link": "https://www.linkedin.com/pub/qi-xia/80/84/844?trk=pub-pbmap",
+      "name": "qi xia",
+      "title": "Software Engineer Intern",
+      "company": "Uber"
+    },
+    {
+      "link": "https://www.linkedin.com/pub/madhur-shrimal/21/1/249?trk=pub-pbmap",
+      "name": "Madhur Shrimal",
+      "title": "Graduate Practicum Student",
+      "company": "Ericsson | Actively Seeking full time opportunities starting May 2016"
+    },
+    {
+      "link": "https://www.linkedin.com/pub/anshima-gupta/35/2a4/794?trk=pub-pbmap",
+      "name": "Anshima Gupta",
+      "title": "Graduate Student",
+      "company": "Carnegie Mellon University"
+    }
+  ]
+}
+{
+  "name": " ",
+  "first_name": null,
+  "last_name": null,
+  "title": "LinkedIn",
+  "location": null,
+  "country": null,
+  "industry": null,
+  "summary": null,
+  "picture": null,
+  "projects": [
+
+  ],
+  "linkedin_url": "http://www.linkedin.com/profile/view?id=AAMAABnyeBsB5pHJ_OhCZtp4aftNu-C9k8M7K2o&trk=hp-identity-photo",
+  "education": [
+
+  ],
+  "groups": [
+
+  ],
+  "websites": [
+
+  ],
+  "languages": [
+
+  ],
+  "skills": [
+
+  ],
+  "certifications": [
+
+  ],
+  "organizations": [
+
+  ],
+  "past_companies": [
+
+  ],
+  "current_companies": [
+
+  ],
+  "recommended_visitors": [
+
+  ]
+}
+{
+  "name": "Stephen Ball",
+  "first_name": "Stephen",
+  "last_name": "Ball",
+  "title": "Mobile Software Engineer at Room 77",
+  "location": "San Francisco Bay Area",
+  "country": "San Francisco Bay Area",
+  "industry": "Computer Software",
+  "summary": null,
+  "picture": "https://static.licdn.com/scds/common/u/images/themes/katy/ghosts/person/ghost_person_150x150_v1.png",
+  "projects": [
+    {
+      "title": "Discover Transit Android Mobile Application",
+      "link": null,
+      "start_date": null,
+      "end_date": null,
+      "description": "[1st Place – Convergence Innovation Competition 2012: Societal Impact Category]\n\nWorked as the lead developer on an Android mobile application that enables users to quickly and easily find real-time public transit information nearby. Designed RESTful API to provide real-time bus coordinates and times, and developed native Android application utilizing maps, device location, and an SQLite database. ",
+      "associates": null
+    }
+  ],
+  "linkedin_url": "https://www.linkedin.com/in/stephenball0",
+  "education": [
+    {
+      "name": "Georgia Institute of Technology",
+      "description": "Bachelor of Science (BS), Computer Science, Highest Honors",
+      "degree": "Bachelor of Science (BS)",
+      "major": "Computer Science",
+      "period": "2009 – 2013",
+      "start_date": "2009",
+      "end_date": "2013"
+    }
+  ],
+  "groups": [
+
+  ],
+  "websites": [
+
+  ],
+  "languages": [
+
+  ],
+  "skills": [
+    "JavaScript",
+    "Android",
+    "C++",
+    "Java",
+    "Python",
+    "PHP",
+    "MySQL",
+    "Android Development",
+    "Apache Pig",
+    "Linux",
+    "AngularJS"
+  ],
+  "certifications": [
+
+  ],
+  "organizations": [
+
+  ],
+  "past_companies": [
+    {
+      "title": "Softwarer Engineer Part-Time",
+      "company": "ViaSat",
+      "description": "Developed application for tracking and analyzing company advertising campaigns. A MySQL database was populated with daily call logs using custom PHP and cURL scripts. PHP front end supported report generation for daily analysis by the marketing team.",
+      "duration": "9 months",
+      "start_date": "2012-08-01",
+      "end_date": "2013-04-09",
+      "linkedin_company_url": "http://www.linkedin.com/company/5770?trk=ppro_cprof",
+      "url": "http://www.viasat.com",
+      "website": "http://www.viasat.com",
+      "industry": "Telecommunications",
+      "type": "Public Company",
+      "headquarters": "6155 El Camino Real\n\nCarlsbad,\nCA\n92011\nUnited States",
+      "company_size": "1001-5000 employees",
+      "founded": "1986",
+      "address": "6155 El Camino Real  Carlsbad, CA 92011 United States"
+    },
+    {
+      "title": "Software Engineer Intern",
+      "company": "ViaSat",
+      "description": "Led team to develop a scalable, flexible tool that gathers, stores, processes, and analyzes social media data for business intelligence purposes. Used Python to gather and part-of- speech tag social media data, HBase to store the data, Pig and Hadoop to process the data, and PHP to present the data.",
+      "duration": "4 months",
+      "start_date": "2012-05-01",
+      "end_date": "2012-08-04",
+      "linkedin_company_url": "http://www.linkedin.com/company/5770?trk=ppro_cprof",
+      "url": "http://www.viasat.com",
+      "website": "http://www.viasat.com",
+      "industry": "Telecommunications",
+      "type": "Public Company",
+      "headquarters": "6155 El Camino Real\n\nCarlsbad,\nCA\n92011\nUnited States",
+      "company_size": "1001-5000 employees",
+      "founded": "1986",
+      "address": "6155 El Camino Real  Carlsbad, CA 92011 United States"
+    }
+  ],
+  "current_companies": [
+    {
+      "title": "Lead Software Engineer",
+      "company": "Room 77",
+      "description": "Began as Mobile Software Engineer (2013). Developed major frontend features for site in AngularJS and was owner of Android app. Currently sole software engineer at Room 77 after Google acquisition (2014) and now develop across full-stack (C++ core backend servers, AngularJS frontend, Linux on Amazon EC2 production infrastructure). Developed partner API to support millions of searches per day. Built affiliate white-label version of Room 77 for use by partners. Created custom rankers and mobile UI for personalized hotel search experience. Improved efficiency of core servers to reduce infrastructure requirements and save cost.",
+      "duration": "2 years 3 months",
+      "start_date": "2013-07-01",
+      "end_date": "2015-09-21",
+      "linkedin_company_url": "http://www.linkedin.com/company/903763?trk=ppro_cprof",
+      "url": "http://www.Room77.com",
+      "website": "http://www.Room77.com",
+      "industry": "Leisure, Travel & Tourism",
+      "type": "Privately Held",
+      "headquarters": "888 Villa Street\n\nMountain View,\nCA\n94041\nUnited States",
+      "company_size": "11-50 employees",
+      "founded": "2010",
+      "address": "888 Villa Street  Mountain View, CA 94041 United States"
+    }
+  ],
+  "recommended_visitors": [
+    {
+      "link": "https://www.linkedin.com/pub/stephen-ball/49/1a4/625",
+      "name": "Stephen Ball",
+      "title": "Owner",
+      "company": "Red Rock Retrievers & Ranch"
+    },
+    {
+      "link": "https://www.linkedin.com/pub/stephen-ball/6/330/a20",
+      "name": "Stephen Ball",
+      "title": "Team Lead (Project Manager), Procurement Practice",
+      "company": "Maine Pointe, LLC"
+    },
+    {
+      "link": "https://www.linkedin.com/in/stevenkball",
+      "name": "Steve Ball",
+      "title": "VP Information Services - Business Partnership",
+      "company": "Sealed Air Corporation"
+    },
+    {
+      "link": "https://www.linkedin.com/pub/stephen-ball/a/749/992",
+      "name": "Stephen Ball",
+      "title": "Director of Business Development & Special Events",
+      "company": "Events DC"
+    },
+    {
+      "link": "https://www.linkedin.com/pub/steve-ball/0/166/6ba",
+      "name": "Steve Ball",
+      "title": "CEO / Cofounder",
+      "company": "\"I and love and you\" pet care"
+    },
+    {
+      "link": "https://www.linkedin.com/pub/roger-wong/0/59a/b68?trk=pub-pbmap",
+      "name": "Roger Wong",
+      "title": "GM Room 77 Hotel Metasearch",
+      "company": null
+    },
+    {
+      "link": "https://www.linkedin.com/pub/rasmus-lerdorf/0/42/48?trk=pub-pbmap",
+      "name": "Rasmus Lerdorf",
+      "title": null,
+      "company": null
+    },
+    {
+      "link": "https://www.linkedin.com/pub/brad-gerstner/b/789/651?trk=pub-pbmap",
+      "name": "Brad Gerstner",
+      "title": "Founder and CEO Altimeter Capital",
+      "company": null
+    },
+    {
+      "link": "https://www.linkedin.com/pub/mark-johnson/0/7a2/963?trk=pub-pbmap",
+      "name": "Mark Johnson",
+      "title": "Data",
+      "company": null
+    },
+    {
+      "link": "https://www.linkedin.com/pub/devon-winrick/38/841/185?trk=pub-pbmap",
+      "name": "Devon Winrick",
+      "title": "Software Engineer",
+      "company": "Reputation.com"
+    },
+    {
+      "link": "https://www.linkedin.com/pub/ibrahima-sy/6b/2a9/228?trk=pub-pbmap",
+      "name": "Ibrahima Sy",
+      "title": "commercant",
+      "company": "Group Commerce"
+    },
+    {
+      "link": "https://www.linkedin.com/pub/nemez-%D0%B8%D0%B3%D0%BE%D1%80%D1%8C/6a/554/3a9?trk=pub-pbmap",
+      "name": "nemez Игорь",
+      "title": "realty",
+      "company": "Group Commerce"
+    },
+    {
+      "link": "https://www.linkedin.com/pub/alilou-ker/78/bb8/52b?trk=pub-pbmap",
+      "name": "alilou ker",
+      "title": "chargé d'étude chez Group Commerce",
+      "company": null
+    },
+    {
+      "link": "https://www.linkedin.com/pub/daouda-gueye/6b/15a/a37?trk=pub-pbmap",
+      "name": "Daouda Gueye",
+      "title": "gérant chez Group Commerce",
+      "company": null
+    }
+  ]
+}
+{
+  "name": "Miles Bassett",
+  "first_name": "Miles",
+  "last_name": "Bassett",
+  "title": "Support Engineer at Valorem Consulting Group",
+  "location": "Lawrence",
+  "country": "Kansas",
+  "industry": "Computer Software",
+  "summary": null,
+  "picture": "https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/1/000/23a/1b1/3fa1b50.jpg",
+  "projects": [
+
+  ],
+  "linkedin_url": "https://www.linkedin.com/pub/miles-bassett/6a/3b9/337",
+  "education": [
+    {
+      "name": "Centriq Training",
+      "description": "Application Developer",
+      "degree": null,
+      "major": "Application Developer",
+      "period": "2014 – 2015",
+      "start_date": "2014",
+      "end_date": "2015"
+    },
+    {
+      "name": "University of Kansas",
+      "description": "Bachelor’s Degree, Chemical Engineering/Engineering Physics",
+      "degree": "Bachelor’s Degree",
+      "major": "Chemical Engineering/Engineering Physics",
+      "period": "2010 – 2013",
+      "start_date": "2010",
+      "end_date": "2013"
+    }
+  ],
+  "groups": [
+    {
+      "name": ".NET People",
+      "link": "http://www.linkedin.comhttp://www.linkedin.com/groups?gid=40717&goback=%2Enpp_miles*5bassett%2F6a%2F3b9%2F337&trk=fulpro_grplogo"
+    },
+    {
+      "name": "C# Connect",
+      "link": "http://www.linkedin.comhttp://www.linkedin.com/groups?gid=68734&goback=%2Enpp_miles*5bassett%2F6a%2F3b9%2F337&trk=fulpro_grplogo"
+    },
+    {
+      "name": "C# Developers / Architects",
+      "link": "http://www.linkedin.comhttp://www.linkedin.com/groups?gid=85746&goback=%2Enpp_miles*5bassett%2F6a%2F3b9%2F337&trk=fulpro_grplogo"
+    },
+    {
+      "name": "University of Kansas, Engineering School",
+      "link": "http://www.linkedin.comhttp://www.linkedin.com/groups?gid=165334&goback=%2Enpp_miles*5bassett%2F6a%2F3b9%2F337&trk=fulpro_grplogo"
+    },
+    {
+      "name": "KU Alumni-University of Kansas",
+      "link": "http://www.linkedin.comhttp://www.linkedin.com/groups?gid=79659&goback=%2Enpp_miles*5bassett%2F6a%2F3b9%2F337&trk=fulpro_grplogo"
+    },
+    {
+      "name": "ASP.NET,C#/VB.NET Developer/Programmer",
+      "link": "http://www.linkedin.comhttp://www.linkedin.com/groups?gid=2139884&goback=%2Enpp_miles*5bassett%2F6a%2F3b9%2F337&trk=fulpro_grplogo"
+    },
+    {
+      "name": "Kansas University",
+      "link": "http://www.linkedin.comhttp://www.linkedin.com/groups?gid=71213&goback=%2Enpp_miles*5bassett%2F6a%2F3b9%2F337&trk=fulpro_grplogo"
+    },
+    {
+      "name": "UI Developer / User Interface Developer",
+      "link": "http://www.linkedin.comhttp://www.linkedin.com/groups?gid=4496205&goback=%2Enpp_miles*5bassett%2F6a%2F3b9%2F337&trk=fulpro_grplogo"
+    },
+    {
+      "name": "Microsoft Visual Studio ALM + Team Foundation Server",
+      "link": "http://www.linkedin.comhttp://www.linkedin.com/groups?gid=86583&goback=%2Enpp_miles*5bassett%2F6a%2F3b9%2F337&trk=fulpro_grplogo"
+    },
+    {
+      "name": "Jayhawk Nation",
+      "link": "http://www.linkedin.comhttp://www.linkedin.com/groups?gid=117620&goback=%2Enpp_miles*5bassett%2F6a%2F3b9%2F337&trk=fulpro_grplogo"
+    },
+    {
+      "name": "Web Designer and HTML/CSS Developer",
+      "link": "http://www.linkedin.comhttp://www.linkedin.com/groups?gid=3242849&goback=%2Enpp_miles*5bassett%2F6a%2F3b9%2F337&trk=fulpro_grplogo"
+    }
+  ],
+  "websites": [
+    "http://www.milesbassett.com"
+  ],
+  "languages": [
+    {
+      "language": "French",
+      "proficiency": null
+    },
+    {
+      "language": "American Sign Language",
+      "proficiency": null
+    }
+  ],
+  "skills": [
+    "Web Development",
+    "HTML5",
+    "CSS",
+    "ASP.NET",
+    "C#",
+    "JavaScript",
+    "jQuery",
+    "SQL",
+    "Visual Studio",
+    "ASP.NET MVC",
+    "ASP.NET AJAX",
+    "ADO.NET",
+    "LINQ",
+    "EF",
+    "jQuery UI",
+    "jQuery Mobile",
+    "Databases",
+    "Computer Science",
+    "Programming",
+    "Chemical Engineering",
+    "Leadership",
+    "Entrepreneurship",
+    "HTML",
+    "Laboratory Skills",
+    "Research",
+    "Microsoft SQL Server",
+    "Engineering",
+    "Microsoft Office",
+    "AJAX",
+    "Web Design"
+  ],
+  "certifications": [
+
+  ],
+  "organizations": [
+
+  ],
+  "past_companies": [
+    {
+      "title": "Student",
+      "company": "Centriq Training",
+      "duration": "6 months",
+      "start_date": "2014-10-01",
+      "end_date": "2015-03-06",
+      "linkedin_company_url": "http://www.linkedin.com/company/113529?trk=ppro_cprof",
+      "url": "http://www.centriq.com",
+      "website": "http://www.centriq.com",
+      "industry": "Information Technology and Services",
+      "type": "Educational Institution",
+      "headquarters": "8700 State Line Rd,\nSuite 200\nLeawood,\nKansas\n66206\nUnited States",
+      "company_size": "11-50 employees",
+      "founded": "1989",
+      "address": "8700 State Line Rd, Suite 200 Leawood, Kansas 66206 United States"
+    },
+    {
+      "title": "Barista/Manager",
+      "company": "The Java Break Cafe",
+      "duration": "11 months",
+      "start_date": "2013-11-01",
+      "end_date": "2014-09-11",
+      "linkedin_company_url": "http://www.linkedin.com/"
+    },
+    {
+      "title": "Assistant Researcher",
+      "company": "University of Kansas",
+      "description": "- Project: KU Biodiesel Project lab assistant, 2010 - Designed, built apparatuses for the production and purification of biodiesel and for steam reformation of glycerol byproduct - Project: Individual research in dye-sensitized photovoltaic cells, 2011 - Developed, modified, and tested new, highly efficient solar cells - Project: Research assistant in TORP (Tertiary Oil Recovery Project) labs, 2012 - Created, tested specialized nanoparticles to act as magnetically charged slow-release capsules for scale-inhibiting chemicals",
+      "duration": "2 years",
+      "start_date": "2011-01-01",
+      "end_date": null,
+      "linkedin_company_url": "http://www.linkedin.com/company/166643?trk=ppro_cprof",
+      "url": "http://www.ku.edu",
+      "website": "http://www.ku.edu",
+      "industry": "Higher Education",
+      "type": "Educational Institution",
+      "headquarters": "1450 Jayhawk Boulevard\n\nLawrence,\nKS\n66044\nUnited States",
+      "company_size": "10,001+ employees",
+      "founded": "1865",
+      "address": "1450 Jayhawk Boulevard  Lawrence, KS 66044 United States"
+    }
+  ],
+  "current_companies": [
+    {
+      "title": "Support Engineer",
+      "company": "Valorem Consulting Group",
+      "description": "As the Support Engineer, I worked in a team of 5-8 persons, acting as the point of escalation and assistance to Tier 1 Support Analysts. I was responsible for understanding the business context and technical implementation of several large, high visibility applications. My primary responsibility was to assist with the technical solutions to questions, issues, changes and defects that arise in the ongoing maintenance and support of these applications. This required a strong ability to learn, communicate and collaborate, as well as aptitude in a wide breath of technologies. I worked together with the Support Manager, Lead Support Engineer and the other Engineering teams to deliver high quality,optimized delivery of solutions.",
+      "duration": "7 months",
+      "start_date": "2015-03-01",
+      "end_date": "2015-09-21",
+      "linkedin_company_url": "http://www.linkedin.com/company/447716?trk=ppro_cprof",
+      "url": "http://www.valorem.com",
+      "website": "http://www.valorem.com",
+      "industry": "Information Technology and Services",
+      "type": "Privately Held",
+      "headquarters": "2101 Broadway Street\n\nKansas City,\nMO\n64108\nUnited States",
+      "company_size": "51-200 employees",
+      "founded": "2009",
+      "address": "2101 Broadway Street  Kansas City, MO 64108 United States"
+    }
+  ],
+  "recommended_visitors": [
+    {
+      "link": "https://www.linkedin.com/pub/german-portillo/49/a23/79b?trk=pub-pbmap",
+      "name": "German Portillo",
+      "title": "Sr. Software Developer",
+      "company": "Sporting Innovations"
+    },
+    {
+      "link": "https://www.linkedin.com/pub/neill-horton/2/bb2/394?trk=pub-pbmap",
+      "name": "Neill Horton",
+      "title": null,
+      "company": null
+    },
+    {
+      "link": "https://www.linkedin.com/pub/chuck-wieners/b/24/6a0?trk=pub-pbmap",
+      "name": "Chuck Wieners",
+      "title": "Technical Trainer",
+      "company": "Centriq Training"
+    },
+    {
+      "link": "https://www.linkedin.com/pub/jason-presley/24/9b5/1b4?trk=pub-pbmap",
+      "name": "Jason Presley",
+      "title": "Technical Instructor",
+      "company": "Centriq Training"
+    },
+    {
+      "link": "https://www.linkedin.com/pub/nicole-trendel/15/527/66?trk=pub-pbmap",
+      "name": "Nicole Trendel",
+      "title": "Senior Student Advisor",
+      "company": "Centriq Training"
+    },
+    {
+      "link": "https://www.linkedin.com/pub/andrea-pedersen/2a/b00/335?trk=pub-pbmap",
+      "name": "Andrea Pedersen",
+      "title": "Career Operations Manager",
+      "company": "Centriq Training"
+    },
+    {
+      "link": "https://www.linkedin.com/pub/jonathan-henning/b0/230/85b?trk=pub-pbmap",
+      "name": "Jonathan Henning",
+      "title": "Software Developer",
+      "company": "AJI Software"
+    },
+    {
+      "link": "https://www.linkedin.com/pub/eric-reid/1/7a4/27?trk=pub-pbmap",
+      "name": "Eric Reid",
+      "title": ".NET Trainer & Technical Instructor",
+      "company": "Centriq Training"
+    },
+    {
+      "link": "https://www.linkedin.com/pub/erin-long-crowell/8/331/770?trk=pub-pbmap",
+      "name": "Erin Long-Crowell",
+      "title": "TechSmart KC Instructor & Alumni Coordinator",
+      "company": "Centriq Training"
+    },
+    {
+      "link": "https://www.linkedin.com/pub/keith-smith/15/50/a0b?trk=pub-pbmap",
+      "name": "Keith Smith",
+      "title": ".Net Instructor",
+      "company": "Centriq Training"
+    }
+  ]
+}
+{
+  "name": "Megan Starek",
+  "first_name": "Megan",
+  "last_name": "Starek",
+  "title": ".Net Technical Trainer at Centriq Training",
+  "location": "Kansas City",
+  "country": "Missouri Area",
+  "industry": "Information Technology and Services",
+  "summary": null,
+  "picture": "http://m.c.lnkd.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAANWAAAAJDZkMDY1ZjFlLWRmNGQtNDJkZC04YWEwLWJlYzQ5MmQ2YzU4ZQ.jpg",
+  "projects": [
+
+  ],
+  "linkedin_url": "http://www.linkedin.com/in/meganstarek",
+  "education": [
+
+  ],
+  "groups": [
+
+  ],
+  "websites": [
+
+  ],
+  "languages": [
+
+  ],
+  "skills": [
+
+  ],
+  "certifications": [
+
+  ],
+  "organizations": [
+
+  ],
+  "past_companies": [
+
+  ],
+  "current_companies": [
+    {
+      "title": ".Net Technical Trainer",
+      "company": "Centriq Training",
+      "duration": "1 year 1 month",
+      "start_date": "2014-09-01",
+      "end_date": null,
+      "linkedin_company_url": "http://www.linkedin.com//company/113529?trk=ppro_cprof",
+      "url": "http://www.centriq.com",
+      "website": "http://www.centriq.com",
+      "industry": "Information Technology and Services",
+      "type": "Educational Institution",
+      "headquarters": "8700 State Line Rd,\nSuite 200\nLeawood,\nKansas\n66206\nUnited States",
+      "company_size": "11-50 employees",
+      "founded": "1989",
+      "address": "8700 State Line Rd, Suite 200 Leawood, Kansas 66206 United States"
+    }
+  ],
+  "recommended_visitors": [
+    {
+      "link": "https://www.linkedin.com/pub/megan-starek/52/ab9/159",
+      "name": "Megan Starek",
+      "title": "--",
+      "company": null
+    }
+  ]
+}

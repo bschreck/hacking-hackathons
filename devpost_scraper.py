@@ -59,6 +59,7 @@ from dateutil.parser import *
 import datetime
 import sys
 import util
+from subprocess import check_output
 
 class DevPostScraper(object):
     def __init__(self):
@@ -71,12 +72,7 @@ class DevPostScraper(object):
     def scrape_names(self):
         names = set()
         for page in xrange(1,37):
-            r = requests.get(
-                url='http://hackmit.devpost.com/participants?page='+str(page),
-                headers={
-                    'X-Requested-With': 'XMLHttpRequest'
-                }
-            )
+            r = util.getPage('http://hackmit.devpost.com/participants?page='+str(page))
 
             s = BeautifulSoup(r.text)
 
@@ -91,12 +87,7 @@ class DevPostScraper(object):
     def scrape_hackathons(self):
         names = set()
         for page in xrange(1,3000):
-            r = requests.get(
-                url='http://devpost.com/hackathons?page='+str(page),
-                headers={
-                    'X-Requested-With': 'XMLHttpRequest'
-                }
-            )
+            r = util.getPage('http://devpost.com/hackathons?page='+str(page))
 
             s = BeautifulSoup(r.text)
             for r in s.findAll('article'):
@@ -133,12 +124,7 @@ class DevPostScraper(object):
         projects = []
         for page in xrange(1,pages+1):
             print "working on page:", page
-            r = requests.get(
-                url='http://devpost.com/software/search?page='+str(page),
-                headers={
-                    'X-Requested-With': 'XMLHttpRequest'
-                }
-            )
+            r = util.getPage('http://devpost.com/software/search?page='+str(page))
 
             projects_dict= json.loads(r.text)
             for p in projects_dict['software']:
@@ -150,16 +136,11 @@ class DevPostScraper(object):
                 del p['slug']
                 del p['url']
                 projects.append(p)
-            util.saveObjectsToPickleFile({'projects':projects},pf)
+            #util.saveObjectsToPickleFile({'projects':projects},pf)
         return projects
 
     def scrape_project(self, url):
-        r = requests.get(
-            url=url,
-            headers={
-                'X-Requested-With': 'XMLHttpRequest'
-            }
-        )
+        r = util.getPage(url)
         s = BeautifulSoup(r.text)
         hackathon = ''
         submissions = s.find(id='submissions')
@@ -167,7 +148,7 @@ class DevPostScraper(object):
             for sub in submissions.findAll('div'):
                 if 'class' in sub.attrs and 'software-list-content' in sub['class']:
                     hackathon = sub.a['href']
-        members = []
+        members = {}
         team = s.find(id='app-team')
         if team:
             for sub in team.findAll('li'):
@@ -177,7 +158,8 @@ class DevPostScraper(object):
                             if link.string:
                                 url = link['href']
                                 name = link.string
-                                members.append({'url':url, 'name':name})
+                                userInfo = self.scrape_user(url)
+                                members[name] = userInfo
         parsedDetails = ''
         details = s.find(id='app-details-left')
         if details:
@@ -187,9 +169,141 @@ class DevPostScraper(object):
 
         return hackathon, members, parsedDetails
 
+    def scrape_user(self,url):
+        r = util.getPage(url)
+        s = BeautifulSoup(r.text)
+        links_html = s.find(id='portfolio-user-links')
+        title = ''
+        links = {}
+        for li in links_html.findAll('li'):
+            if not li.findAll('a'):
+                title = util.removeSpaceNewLine(li.get_text())
+            else:
+                if li.a:
+                    nameOfSite = util.removeSpaceNewLine(li.get_text())
+                    urlOfSite = li.a['href']
+                    if nameOfSite.lower() == 'github' or urlOfSite.find('github') > -1:
+                        info = self.scrape_github(urlOfSite)
+                    elif nameOfSite.lower() == 'twitter' or urlOfSite.find('twitter') > -1:
+                        info = self.scrape_twitter(urlOfSite)
+                    elif nameOfSite.lower() == 'linkedin' or urlOfSite.find('linkedin') > -1:
+                        info = self.scrape_linked_in(urlOfSite)
+                    else:
+                        info = self.scrape_arbitrary(urlOfSite)
+
+                    links[nameOfSite] = info
+        tags_html = [t for t in s.findAll('ul') if 'class' in t.attrs and 'portfolio-tags' in t['class']]
+        tags = []
+        if tags_html:
+            tags_html = tags_html[0]
+            for t in tags_html.findAll('li'):
+                if t.a:
+                    tags.append(t.a.string)
+        return title, links, tags
+    def scrape_github(self,url):
+        r = util.getPage(url)
+        if r:
+            print r.text
+            s = BeautifulSoup(r.text)
+            #return s.get_text()
+        return None
+    def scrape_twitter(self,url):
+        r = util.getPage(url)
+        return None
+    def scrape_linked_in(self,url):
+        args = ['/usr/local/bin/linkedin-scraper',url]
+        p = check_output(args)
+        linkedInDict = json.loads(p)
+        parsedLinkedInDict = {}
+
+
+        jsonParse =  {'title': str,
+                'location': str,
+                'country': str,
+                'industry': str,
+                'summary': 'text',
+                'projects': [
+                    {'description': 'text'},
+                    {'associates': lambda x: len(x)}
+                    ],
+                'education': [
+                    {
+                        'name': str,
+                        'description': 'text',
+                        'degree': 'text',
+                        'major': 'text',
+                    }
+                    ],
+                'groups': [{'name':'text'}],
+                'languages': [
+                    {'language': str,
+                     'proficiency': str}
+                    ],
+                'skills': [
+                    str
+                    ],
+                'certifications':[
+                    str
+                    ],
+                'organizations':[
+                    str
+                    ],
+                'past_companies': [
+                    {'title': 'text',
+                     'company': str,
+                     'description': 'text',
+                     'industry': str,
+                     'company_size': str
+                     }
+                    ],
+                'current_companies':[
+                    {'title': 'text',
+                     'company': str,
+                     'description': 'text',
+                     'industry': str,
+                     'company_size': str
+                     }
+                    ],
+                }
+        def parseElm(typeD, dataD,key):
+            pDict = {}
+            if key in dataD:
+                if typeD[key] == str:
+                    pDict[key] = {'str': dataD[key]}
+                elif typeD[key] == 'text':
+                    pDict[key] = {'text': dataD[key]}
+                elif type(typeD[key]) == function:
+                    pDict[key] = {'function': typeD[key](dataD[key])}
+            return pDict
+
+        for key in jsonParse:
+            if type(jsonParse[key]) != list:
+                parsedLinkedInDict = util.mergeDicts(parsedLinkedInDict, parseElm(jsonParse, linkedInDict,key))
+            else:
+                parsedLinkedInDict[key] = []
+                for elm in linkedInDict[key]:
+                    if type(jsonParse[key][0]) == dict:
+                        dictToAdd = {}
+                        for k in jsonParse[key][0]:
+                            dictToAdd = util.mergeDicts(dictToAdd, parseElm(jsonParse[key][0], elm, k))
+                        parsedLinkedInDict[key].append(dictToAdd)
+                    else:
+                        if jsonParse[key][0] == str:
+                            parsedLinkedInDict[key].append({'str':elm})
+                        elif jsonParse[key][0] == 'text':
+                            parsedLinkedInDict[key].append({'text':elm})
+        return parsedLinkedInDict
+    def scrape_arbitrary(self,url):
+        r = util.getPage(url)
+        if r:
+            s = BeautifulSoup(r.text)
+            return s.get_text()
+        else:
+            return None
+
 
 scraper = DevPostScraper()
-pf = 'projects.p'
+pf = 'projects_tmp2.p'
 projects = scraper.scrape_projects(pages = 1221, pf = pf)
 #print scraper.scrape_project('http://devpost.com/software/kannek-ujkf5e')
-
+#scraper.scrape_user('http://devpost.com/Alejandronw')

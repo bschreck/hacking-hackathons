@@ -1,5 +1,6 @@
 import os
 import pickle as pck
+import requests
 def mergeDicts(*dictArgs):
     '''
     Given any number of dicts, shallow copy and merge into a new dict,
@@ -38,4 +39,17 @@ def overwritePickleFile(objects,pf):
     with open(pf, 'w') as f:
         pck.dump(objects,f)
 
+def removeSpaceNewLine(s):
+    return s.replace('\n','').replace(' ','')
 
+def getPage(url):
+    try:
+        r = requests.get(
+            url=url,
+            headers={
+                'X-Requested-With': 'XMLHttpRequest'
+            }
+        )
+        return r
+    except:
+        return None

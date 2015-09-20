@@ -1,10 +1,14 @@
 import util
 import pandas as pd
 import numpy as np
+import sys
 
-pf = 'projects_tmp.p'
+pf = 'projects.p'
 projects = util.loadObjectsFromPickleFile(['projects'], pf)[0]
+print projects
 df = pd.DataFrame(projects)
+print df
+sys.exit()
 tags = set()
 for tag_group in df['tags'].values:
     if tag_group:
@@ -20,4 +24,8 @@ def convert_tags_to_cat(x):
     else:
         return [None]
 df['tags'] = df['tags'].apply(convert_tags_to_cat)
-print df['tags']
+#print df['tags']
+for team in df['members'].values:
+    for m in team:
+        print m['url']
+        print m['name']
