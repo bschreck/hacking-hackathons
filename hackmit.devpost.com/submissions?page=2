@@ -1,0 +1,1658 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html lang="en" class="no-js" xmlns:fb="http://ogp.me/ns/fb#" xmlns:fb="http://www.facebook.com/2008/fbml" xmlns:og="http://opengraphprotocol.org/schema/"> <!--<![endif]-->
+  <head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# challengepost: http://ogp.me/ns/fb/challengepost#">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","errorBeacon":"bam.nr-data.net","licenseKey":"f9082fa052","applicationID":"7341974","transactionName":"IQpdERFeXFVVRhpQDAMJXwANVlVKH0dAUQkLFkAMDF9DFllaUVYc","queueTime":0,"applicationTime":999,"ttGuid":"","agentToken":null,"agent":"js-agent.newrelic.com/nr-686.min.js"}</script>
+<script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,n,t){function r(t){if(!n[t]){var o=n[t]={exports:{}};e[t][0].call(o.exports,function(n){var o=e[t][1][n];return r(o?o:n)},o,o.exports)}return n[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<t.length;o++)r(t[o]);return r}({QJf3ax:[function(e,n){function t(e){function n(n,t,a){e&&e(n,t,a),a||(a={});for(var u=c(n),f=u.length,s=i(a,o,r),p=0;f>p;p++)u[p].apply(s,t);return s}function a(e,n){f[e]=c(e).concat(n)}function c(e){return f[e]||[]}function u(){return t(n)}var f={};return{on:a,emit:n,create:u,listeners:c,_events:f}}function r(){return{}}var o="nr@context",i=e("gos");n.exports=t()},{gos:"7eSDFh"}],ee:[function(e,n){n.exports=e("QJf3ax")},{}],3:[function(e,n){function t(e){return function(){r(e,[(new Date).getTime()].concat(i(arguments)))}}var r=e("handle"),o=e(1),i=e(2);"undefined"==typeof window.newrelic&&(newrelic=window.NREUM);var a=["setPageViewName","addPageAction","setCustomAttribute","finished","addToTrace","inlineHit","noticeError"];o(a,function(e,n){window.NREUM[n]=t("api-"+n)}),n.exports=window.NREUM},{1:12,2:13,handle:"D5DuLP"}],gos:[function(e,n){n.exports=e("7eSDFh")},{}],"7eSDFh":[function(e,n){function t(e,n,t){if(r.call(e,n))return e[n];var o=t();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,n,{value:o,writable:!0,enumerable:!1}),o}catch(i){}return e[n]=o,o}var r=Object.prototype.hasOwnProperty;n.exports=t},{}],D5DuLP:[function(e,n){function t(e,n,t){return r.listeners(e).length?r.emit(e,n,t):void(r.q&&(r.q[e]||(r.q[e]=[]),r.q[e].push(n)))}var r=e("ee").create();n.exports=t,t.ee=r,r.q={}},{ee:"QJf3ax"}],handle:[function(e,n){n.exports=e("D5DuLP")},{}],XL7HBI:[function(e,n){function t(e){var n=typeof e;return!e||"object"!==n&&"function"!==n?-1:e===window?0:i(e,o,function(){return r++})}var r=1,o="nr@id",i=e("gos");n.exports=t},{gos:"7eSDFh"}],id:[function(e,n){n.exports=e("XL7HBI")},{}],G9z0Bl:[function(e,n){function t(){var e=d.info=NREUM.info,n=f.getElementsByTagName("script")[0];if(e&&e.licenseKey&&e.applicationID&&n){c(p,function(n,t){n in e||(e[n]=t)});var t="https"===s.split(":")[0]||e.sslForHttp;d.proto=t?"https://":"http://",a("mark",["onload",i()]);var r=f.createElement("script");r.src=d.proto+e.agent,n.parentNode.insertBefore(r,n)}}function r(){"complete"===f.readyState&&o()}function o(){a("mark",["domContent",i()])}function i(){return(new Date).getTime()}var a=e("handle"),c=e(1),u=window,f=u.document;e(2);var s=(""+location).split("?")[0],p={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-686.min.js"},d=n.exports={offset:i(),origin:s,features:{}};f.addEventListener?(f.addEventListener("DOMContentLoaded",o,!1),u.addEventListener("load",t,!1)):(f.attachEvent("onreadystatechange",r),u.attachEvent("onload",t)),a("mark",["firstbyte",i()])},{1:12,2:3,handle:"D5DuLP"}],loader:[function(e,n){n.exports=e("G9z0Bl")},{}],12:[function(e,n){function t(e,n){var t=[],o="",i=0;for(o in e)r.call(e,o)&&(t[i]=n(o,e[o]),i+=1);return t}var r=Object.prototype.hasOwnProperty;n.exports=t},{}],13:[function(e,n){function t(e,n,t){n||(n=0),"undefined"==typeof t&&(t=e?e.length:0);for(var r=-1,o=t-n||0,i=Array(0>o?0:o);++r<o;)i[r]=e[n+r];return i}n.exports=t},{}]},{},["G9z0Bl"]);</script>
+    <title>Submission Gallery | HackMIT | Devpost</title>
+
+    <meta name="viewport" content="width=device-width">
+
+
+    <!--[if gt IE 7]><!-->
+      <link rel="stylesheet" media="screen" href="//devpost0.assetspost.com/assets/reimagine2-2bb39e864ed4df969d339eb965bcd8f4.css" />
+      <link rel="stylesheet" media="screen" href="//devpost2.assetspost.com/assets/challenges/reimagine_layout-74833f27ed8e2b5de0d8ed42b2f87fc8.css" />
+      <style type="text/css">
+    #challenge-header {
+      background-color: #f0efed;
+    }
+
+    #challenge-header h1 a {
+      color: #0088cc;
+    }
+
+  
+</style>
+
+    <!--<![endif]-->
+
+    <!--[if lt IE 9]>
+      <script src="//devpost1.assetspost.com/assets/modernizr-bef57869320b416d48fb2c5087d5e793.js"></script>
+    <![endif]-->
+    
+    <meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="0SwtrwW8avzu2VFWwaEIdgcjlaJf5bhM1TIPdVrnXcHY2beX3nS4hKJExQSOTNF4nQ94TkCjZkZwN2K2M0cKPQ==" />
+    
+  </head>
+
+  <body id="body-submissions" class="foundation-grid action-index">
+
+    <!--googleoff: anchor-->
+
+<!--[if lte IE 9 ]>
+  <div id="unsupported_browser_version" class="persistent_message alert-box alert">
+    <p>
+      We've detected that you are using an unsupported browser.  Please
+      <a href="http://browsehappy.com/">upgrade your browser</a>
+      to Internet Explorer 10 or higher.
+    </p>
+  </div>
+<![endif]-->
+
+
+<!--googleon: anchor-->
+
+
+
+    
+    
+    
+  <header id="global-nav">
+    <div class="contain-to-grid">
+      <nav class="top-bar" data-topbar role="navigation">
+        <ul class="title-area">
+          <li class="name">
+            <span id="logo">
+              <a href="http://devpost.com/">
+                <img alt="Devpost" src="//devpost1.assetspost.com/assets/shared/devpost_logo-646bdf6ac6663230947a952f8d354cad.svg" />
+</a>            </span>
+
+            <span id="formerly-cp" class="tiny">
+  <a href="http://blog.devpost.com/post/125253916364/challengepost-is-now-devpost">
+    formerly
+    <img height="15" width="100" alt="Devpost" src="//devpost3.assetspost.com/assets/shared/ChallengePost-logo-RGB-26f7891faa2b80412cef1078cd94a956.svg" />
+  </a>
+</span>
+
+          </li>
+
+          <li class="toggle-topbar menu-icon" tabindex="0">
+            <a href="#" aria-labelledby="global-nav-toggle-user-menu">
+              <span></span>
+              <span class="visually-hidden" id="global-nav-toggle-user-menu">Toggles the global navigation menu</span>
+            </a>
+          </li>
+        </ul>
+
+        <section class="top-bar-section">
+          <ul class="left">
+            <li class="divider"></li>
+<li>
+  <a class="main-link" data-role="explore" href="http://devpost.com/software">
+    Explore projects
+</a></li>
+<li class="divider"></li>
+<li>
+  <a class="main-link" data-role="discover" href="http://devpost.com/hackathons">
+    Find a hackathon
+</a></li>
+<li class="divider"></li>
+
+          </ul>
+
+            <ul class="right logged-out">
+  <li class="divider hide-for-small"></li>
+  <li><a href="https://secure.devpost.com/users/login?ref=top-nav-login">Log in</a></li>
+  <li class="divider"></li>
+  <li><a id="signup-link" href="https://secure.devpost.com/users/register?ref=top-nav-signup">Sign up</a></li>
+  <li class="divider"></li>
+</ul>
+
+        </section>
+      </nav>
+    </div>
+  </header>
+
+
+
+
+    <header id="challenge-header">
+    <div class="row">
+      <div class="small-12 columns" id="logo-container">
+          <h1 class="header-image">
+            <a href="/"><img alt="HackMIT" src="https://challengepost-s3-challengepost.netdna-ssl.com/photos/production/challenge_photos/000/119/393/datas/full_width.png" /></a>
+          </h1>
+      </div>
+    </div>
+    <div id="challenge-navigation" class="tabbed-navigation">
+    <div class="row">
+      <div class="small-12 columns">
+        <nav class="top-bar">
+          <span class="toggle-button ss-icon">
+            <a href="#">Descend</a>
+          </span>
+
+          <section class="top-bar-section">
+            <ul class="left">
+              <li class=""><a href="/">Home</a></li>
+              <li class=""><a href="/participants">Participants</a></li>
+              <li class=""><a href="/rules">Rules</a></li>
+
+              <li class="active">
+                <a href="/submissions">Submissions</a>
+</li>
+              <li class="">
+                <a href="/updates">Updates</a>
+</li>
+              <li class="">
+                <a href="/forum_topics">Discussions</a>
+</li>
+
+                          </ul>
+          </section>
+        </nav>
+      </div>
+    </div>
+  </div>
+
+
+</header>
+
+
+    <div id="container">
+      <div class="row">
+        <div class="small-12 columns">
+            <div class="row">
+    <div class="columns small-12 large-12">
+      <div class="panel" id="banner">
+        <i class="ss-icon ss-star" id="banner-icon"></i>
+          <h5>Connect with the participants &ndash; support your favorite projects
+              by liking, sharing, and commenting on them.
+          </h5>
+      </div>
+    </div>
+  </div>
+
+
+          <section id="main" class="row text-content content-section">
+                <section class="large-12 columns" role="main">
+                  
+<div id="submission-gallery">
+
+
+      
+
+    <div class="row" id="search-bar">
+  <form action="/submissions/search" accept-charset="UTF-8" method="get"><input name="utf8" type="hidden" value="&#x2713;" />
+    
+
+    <div class="large-9 columns">
+      <div class="row">
+        <div class="large-9 columns">
+          <input type="text" name="terms" id="terms" placeholder="Search..." />
+        </div>
+        <div class="large-3 columns" id="search-button">
+          <input type="submit" value="Search" class="button radius" />
+        </div>
+      </div>
+    </div>
+
+    <div class="large-3 columns">
+      <div class="sort">
+  <select name="sort" id="sort" class="right"><option value="">Select one</option>
+<option value="alpha">Name</option>
+<option value="recent">Recent</option></select>
+  <label class="all-caps right inline" for="sort">Sort</label>
+</div>
+
+
+    </div>
+</form></div>
+
+
+          <div class="row">
+      
+
+
+  <div class="large-3 small-12 columns gallery-item">
+    <a class="software-entry-link block-wrapper-link fade" title="Codebox" href="http://devpost.com/software/codebox">
+      <div class="software-entry gallery-entry clearfix" id="submission_17877">
+        <aside class="entry-badge">
+        </aside>
+
+        <figure>
+          <img alt="Codebox" class="thumbnail_image image-replacement" src="//challengepost-s3-challengepost.netdna-ssl.com/photos/production/solution_photos/000/066/583/datas/medium.png" />
+        </figure>
+
+        <div class="entry-state">
+        </div>
+
+        <div class="software-entry-name entry-body">
+          <h5>
+            Codebox
+            <span class="paragraph-end"></span>
+          </h5>
+
+          <p class="small tagline">
+            
+            <span class="paragraph-end"></span>
+          </p>
+
+          <p class="small">
+            <span nested_link="true" class="user-profile-link" data-nested-link="true" data-url="http://devpost.com/dasmithii">Douglas Adam Smith II</span>
+          </p>
+        </div>
+      </div>
+</a>  </div>
+
+
+
+
+  <div class="large-3 small-12 columns gallery-item">
+    <a class="software-entry-link block-wrapper-link fade" title="Guess Who?" href="http://devpost.com/software/guess-who">
+      <div class="software-entry gallery-entry clearfix" id="submission_17946">
+        <aside class="entry-badge">
+        </aside>
+
+        <figure>
+          <img alt="Guess Who?" class="thumbnail_image image-replacement" src="//challengepost-s3-challengepost.netdna-ssl.com/photos/production/solution_photos/000/066/218/datas/medium.png" />
+        </figure>
+
+        <div class="entry-state">
+        </div>
+
+        <div class="software-entry-name entry-body">
+          <h5>
+            Guess Who?
+            <span class="paragraph-end"></span>
+          </h5>
+
+          <p class="small tagline">
+            
+            <span class="paragraph-end"></span>
+          </p>
+
+          <p class="small">
+            <span nested_link="true" class="user-profile-link" data-nested-link="true" data-url="http://devpost.com/mdaiter">Matthew Daiter</span>
+              &amp; 3 others
+          </p>
+        </div>
+      </div>
+</a>  </div>
+
+
+
+
+  <div class="large-3 small-12 columns gallery-item">
+    <a class="software-entry-link block-wrapper-link fade" title="FreeFood" href="http://devpost.com/software/freefood">
+      <div class="software-entry gallery-entry clearfix" id="submission_17966">
+        <aside class="entry-badge">
+        </aside>
+
+        <figure>
+          <img alt="FreeFood" class="thumbnail_image image-replacement" src="//challengepost-s3-challengepost.netdna-ssl.com/photos/production/solution_photos/000/066/660/datas/medium.PNG" />
+        </figure>
+
+        <div class="entry-state">
+        </div>
+
+        <div class="software-entry-name entry-body">
+          <h5>
+            FreeFood
+            <span class="paragraph-end"></span>
+          </h5>
+
+          <p class="small tagline">
+            
+            <span class="paragraph-end"></span>
+          </p>
+
+          <p class="small">
+            <span nested_link="true" class="user-profile-link" data-nested-link="true" data-url="http://devpost.com/drdiablo36">Benjamin San Souci</span>
+              &amp; 1 other
+          </p>
+        </div>
+      </div>
+</a>  </div>
+
+
+
+
+  <div class="large-3 small-12 columns gallery-item">
+    <a class="software-entry-link block-wrapper-link fade" title="2doodle" href="http://devpost.com/software/2doodle">
+      <div class="software-entry gallery-entry clearfix" id="submission_17977">
+        <aside class="entry-badge">
+        </aside>
+
+        <figure>
+          <img alt="2doodle" class="thumbnail_image image-replacement" src="//challengepost-s3-challengepost.netdna-ssl.com/photos/production/solution_photos/000/066/351/datas/medium.png" />
+        </figure>
+
+        <div class="entry-state">
+        </div>
+
+        <div class="software-entry-name entry-body">
+          <h5>
+            2doodle
+            <span class="paragraph-end"></span>
+          </h5>
+
+          <p class="small tagline">
+            
+            <span class="paragraph-end"></span>
+          </p>
+
+          <p class="small">
+            <span nested_link="true" class="user-profile-link" data-nested-link="true" data-url="http://devpost.com/coreyhwalsh">Corey Walsh</span>
+              &amp; 2 others
+          </p>
+        </div>
+      </div>
+</a>  </div>
+
+
+    <div class="columns"></div>
+  </div>
+  <div class="row">
+      
+
+
+  <div class="large-3 small-12 columns gallery-item">
+    <a class="software-entry-link block-wrapper-link fade" title="Wobble" href="http://devpost.com/software/wobble">
+      <div class="software-entry gallery-entry clearfix" id="submission_18036">
+        <aside class="entry-badge">
+        </aside>
+
+        <figure>
+          <img alt="Wobble" class="thumbnail_image image-replacement" src="//challengepost-s3-challengepost.netdna-ssl.com/photos/production/solution_photos/000/066/590/datas/medium.jpg" />
+        </figure>
+
+        <div class="entry-state">
+        </div>
+
+        <div class="software-entry-name entry-body">
+          <h5>
+            Wobble
+            <span class="paragraph-end"></span>
+          </h5>
+
+          <p class="small tagline">
+            
+            <span class="paragraph-end"></span>
+          </p>
+
+          <p class="small">
+            <span nested_link="true" class="user-profile-link" data-nested-link="true" data-url="http://devpost.com/FlorenceDagenais">Florence Dagenais</span>
+              &amp; 1 other
+          </p>
+        </div>
+      </div>
+</a>  </div>
+
+
+
+
+  <div class="large-3 small-12 columns gallery-item">
+    <a class="software-entry-link block-wrapper-link fade" title="SwagBag" href="http://devpost.com/software/swagbag">
+      <div class="software-entry gallery-entry clearfix" id="submission_17874">
+        <aside class="entry-badge">
+        </aside>
+
+        <figure>
+          <img alt="SwagBag" class="thumbnail_image image-replacement" src="//challengepost-s3-challengepost.netdna-ssl.com/photos/production/solution_photos/000/066/748/datas/medium.png" />
+        </figure>
+
+        <div class="entry-state">
+        </div>
+
+        <div class="software-entry-name entry-body">
+          <h5>
+            SwagBag
+            <span class="paragraph-end"></span>
+          </h5>
+
+          <p class="small tagline">
+            
+            <span class="paragraph-end"></span>
+          </p>
+
+          <p class="small">
+            <span nested_link="true" class="user-profile-link" data-nested-link="true" data-url="http://devpost.com/jchien14">Jonathan Chien</span>
+              &amp; 3 others
+          </p>
+        </div>
+      </div>
+</a>  </div>
+
+
+
+
+  <div class="large-3 small-12 columns gallery-item">
+    <a class="software-entry-link block-wrapper-link fade" title="BotherCongress" href="http://devpost.com/software/bothercongress">
+      <div class="software-entry gallery-entry clearfix" id="submission_17930">
+        <aside class="entry-badge">
+        </aside>
+
+        <figure>
+          <img alt="BotherCongress" class="thumbnail_image image-replacement" src="//challengepost-s3-challengepost.netdna-ssl.com/photos/production/solution_photos/000/066/241/datas/medium.png" />
+        </figure>
+
+        <div class="entry-state">
+        </div>
+
+        <div class="software-entry-name entry-body">
+          <h5>
+            BotherCongress
+            <span class="paragraph-end"></span>
+          </h5>
+
+          <p class="small tagline">
+            
+            <span class="paragraph-end"></span>
+          </p>
+
+          <p class="small">
+            <span nested_link="true" class="user-profile-link" data-nested-link="true" data-url="http://devpost.com/dcyu">Daniel Yu</span>
+              &amp; 2 others
+          </p>
+        </div>
+      </div>
+</a>  </div>
+
+
+
+
+  <div class="large-3 small-12 columns gallery-item">
+    <a class="software-entry-link block-wrapper-link fade" title="TourStarter" href="http://devpost.com/software/tourstarter">
+      <div class="software-entry gallery-entry clearfix" id="submission_18125">
+        <aside class="entry-badge">
+        </aside>
+
+        <figure>
+          <img alt="TourStarter" class="thumbnail_image image-replacement" src="//challengepost-s3-challengepost.netdna-ssl.com/photos/production/solution_photos/000/066/857/datas/medium.png" />
+        </figure>
+
+        <div class="entry-state">
+        </div>
+
+        <div class="software-entry-name entry-body">
+          <h5>
+            TourStarter
+            <span class="paragraph-end"></span>
+          </h5>
+
+          <p class="small tagline">
+            
+            <span class="paragraph-end"></span>
+          </p>
+
+          <p class="small">
+            <span nested_link="true" class="user-profile-link" data-nested-link="true" data-url="http://devpost.com/nguyenvietduc">Duc Nguyen</span>
+              &amp; 3 others
+          </p>
+        </div>
+      </div>
+</a>  </div>
+
+
+    <div class="columns"></div>
+  </div>
+  <div class="row">
+      
+
+
+  <div class="large-3 small-12 columns gallery-item">
+    <a class="software-entry-link block-wrapper-link fade" title="BikeNav [Beta]" href="http://devpost.com/software/bikenav-beta">
+      <div class="software-entry gallery-entry clearfix" id="submission_17962">
+        <aside class="entry-badge">
+        </aside>
+
+        <figure>
+          <img alt="BikeNav [Beta]" class="thumbnail_image image-replacement" src="//challengepost-s3-challengepost.netdna-ssl.com/photos/production/solution_photos/000/066/731/datas/medium.jpg" />
+        </figure>
+
+        <div class="entry-state">
+        </div>
+
+        <div class="software-entry-name entry-body">
+          <h5>
+            BikeNav [Beta]
+            <span class="paragraph-end"></span>
+          </h5>
+
+          <p class="small tagline">
+            
+            <span class="paragraph-end"></span>
+          </p>
+
+          <p class="small">
+            <span nested_link="true" class="user-profile-link" data-nested-link="true" data-url="http://devpost.com/BikeNav">Christopher Chornay</span>
+              &amp; 1 other
+          </p>
+        </div>
+      </div>
+</a>  </div>
+
+
+
+
+  <div class="large-3 small-12 columns gallery-item">
+    <a class="software-entry-link block-wrapper-link fade" title="Sylla-bye" href="http://devpost.com/software/sylla-bye">
+      <div class="software-entry gallery-entry clearfix" id="submission_18124">
+        <aside class="entry-badge">
+        </aside>
+
+        <figure>
+          <img alt="Sylla-bye" class="thumbnail_image image-replacement" src="//challengepost-s3-challengepost.netdna-ssl.com/photos/production/solution_photos/000/066/824/datas/medium.png" />
+        </figure>
+
+        <div class="entry-state">
+        </div>
+
+        <div class="software-entry-name entry-body">
+          <h5>
+            Sylla-bye
+            <span class="paragraph-end"></span>
+          </h5>
+
+          <p class="small tagline">
+            
+            <span class="paragraph-end"></span>
+          </p>
+
+          <p class="small">
+            <span nested_link="true" class="user-profile-link" data-nested-link="true" data-url="http://devpost.com/bcollazo">Bryan Collazo</span>
+              &amp; 1 other
+          </p>
+        </div>
+      </div>
+</a>  </div>
+
+
+
+
+  <div class="large-3 small-12 columns gallery-item">
+    <a class="software-entry-link block-wrapper-link fade" title="NoteGenius" href="http://devpost.com/software/notegenius">
+      <div class="software-entry gallery-entry clearfix" id="submission_18123">
+        <aside class="entry-badge">
+        </aside>
+
+        <figure>
+          <img alt="NoteGenius" class="thumbnail_image image-replacement" src="//challengepost-s3-challengepost.netdna-ssl.com/photos/production/solution_photos/000/066/833/datas/medium.png" />
+        </figure>
+
+        <div class="entry-state">
+        </div>
+
+        <div class="software-entry-name entry-body">
+          <h5>
+            NoteGenius
+            <span class="paragraph-end"></span>
+          </h5>
+
+          <p class="small tagline">
+            
+            <span class="paragraph-end"></span>
+          </p>
+
+          <p class="small">
+            <span nested_link="true" class="user-profile-link" data-nested-link="true" data-url="http://devpost.com/kronion">Collin Stedman</span>
+          </p>
+        </div>
+      </div>
+</a>  </div>
+
+
+
+
+  <div class="large-3 small-12 columns gallery-item">
+    <a class="software-entry-link block-wrapper-link fade" title="Cloud Stock" href="http://devpost.com/software/cloud-stock">
+      <div class="software-entry gallery-entry clearfix" id="submission_18121">
+        <aside class="entry-badge">
+        </aside>
+
+        <figure>
+          <img alt="Cloud Stock" class="thumbnail_image image-replacement" src="//challengepost-s3-challengepost.netdna-ssl.com/photos/production/solution_photos/000/066/837/datas/medium.png" />
+        </figure>
+
+        <div class="entry-state">
+        </div>
+
+        <div class="software-entry-name entry-body">
+          <h5>
+            Cloud Stock
+            <span class="paragraph-end"></span>
+          </h5>
+
+          <p class="small tagline">
+            
+            <span class="paragraph-end"></span>
+          </p>
+
+          <p class="small">
+            <span nested_link="true" class="user-profile-link" data-nested-link="true" data-url="http://devpost.com/ablick">Alex Blickenstaff</span>
+              &amp; 1 other
+          </p>
+        </div>
+      </div>
+</a>  </div>
+
+
+    <div class="columns"></div>
+  </div>
+  <div class="row">
+      
+
+
+  <div class="large-3 small-12 columns gallery-item">
+    <a class="software-entry-link block-wrapper-link fade" title="D3 Disasters" href="http://devpost.com/software/d3-disasters">
+      <div class="software-entry gallery-entry clearfix" id="submission_18117">
+        <aside class="entry-badge">
+        </aside>
+
+        <figure>
+          <img alt="D3 Disasters" class="thumbnail_image image-replacement" src="//challengepost-s3-challengepost.netdna-ssl.com/photos/production/solution_photos/000/066/835/datas/medium.png" />
+        </figure>
+
+        <div class="entry-state">
+        </div>
+
+        <div class="software-entry-name entry-body">
+          <h5>
+            D3 Disasters
+            <span class="paragraph-end"></span>
+          </h5>
+
+          <p class="small tagline">
+            
+            <span class="paragraph-end"></span>
+          </p>
+
+          <p class="small">
+            <span nested_link="true" class="user-profile-link" data-nested-link="true" data-url="http://devpost.com/hisingh1">Harsh Singh</span>
+          </p>
+        </div>
+      </div>
+</a>  </div>
+
+
+
+
+  <div class="large-3 small-12 columns gallery-item">
+    <a class="software-entry-link block-wrapper-link fade" title="app4debate" href="http://devpost.com/software/app4debate">
+      <div class="software-entry gallery-entry clearfix" id="submission_18122">
+        <aside class="entry-badge">
+        </aside>
+
+        <figure>
+          <img alt="app4debate" class="thumbnail_image image-replacement" src="//challengepost-s3-challengepost.netdna-ssl.com/photos/production/solution_photos/000/066/830/datas/medium.png" />
+        </figure>
+
+        <div class="entry-state">
+        </div>
+
+        <div class="software-entry-name entry-body">
+          <h5>
+            app4debate
+            <span class="paragraph-end"></span>
+          </h5>
+
+          <p class="small tagline">
+            
+            <span class="paragraph-end"></span>
+          </p>
+
+          <p class="small">
+            <span nested_link="true" class="user-profile-link" data-nested-link="true" data-url="http://devpost.com/lukasberger">Lukas Berger</span>
+              &amp; 1 other
+          </p>
+        </div>
+      </div>
+</a>  </div>
+
+
+
+
+  <div class="large-3 small-12 columns gallery-item">
+    <a class="software-entry-link block-wrapper-link fade" title="Energy Efficient High Performance Computing: More FLOPS, less watts" href="http://devpost.com/software/energy-efficient-high-performance-computing-more-flops-less-watts">
+      <div class="software-entry gallery-entry clearfix" id="submission_18116">
+        <aside class="entry-badge">
+        </aside>
+
+        <figure>
+          <img alt="Energy Efficient High Performance Computing: More FLOPS, less watts" class="thumbnail_image image-replacement" src="//challengepost-s3-challengepost.netdna-ssl.com/photos/production/solution_photos/000/066/836/datas/medium.png" />
+        </figure>
+
+        <div class="entry-state">
+        </div>
+
+        <div class="software-entry-name entry-body">
+          <h5>
+            Energy Efficient High Performance Computing: More FLOPS, less watts
+            <span class="paragraph-end"></span>
+          </h5>
+
+          <p class="small tagline">
+            
+            <span class="paragraph-end"></span>
+          </p>
+
+          <p class="small">
+            <span nested_link="true" class="user-profile-link" data-nested-link="true" data-url="http://devpost.com/trsohmers">Thomas Sohmers</span>
+              &amp; 1 other
+          </p>
+        </div>
+      </div>
+</a>  </div>
+
+
+
+
+  <div class="large-3 small-12 columns gallery-item">
+    <a class="software-entry-link block-wrapper-link fade" title="Smart Bed" href="http://devpost.com/software/smart-bed">
+      <div class="software-entry gallery-entry clearfix" id="submission_18119">
+        <aside class="entry-badge">
+        </aside>
+
+        <figure>
+          <img alt="Smart Bed" class="thumbnail_image image-replacement" src="//challengepost-s3-challengepost.netdna-ssl.com/photos/production/solution_photos/000/066/818/datas/medium.jpg" />
+        </figure>
+
+        <div class="entry-state">
+        </div>
+
+        <div class="software-entry-name entry-body">
+          <h5>
+            Smart Bed
+            <span class="paragraph-end"></span>
+          </h5>
+
+          <p class="small tagline">
+            
+            <span class="paragraph-end"></span>
+          </p>
+
+          <p class="small">
+            <span nested_link="true" class="user-profile-link" data-nested-link="true" data-url="http://devpost.com/andresr">Andres Romero</span>
+              &amp; 3 others
+          </p>
+        </div>
+      </div>
+</a>  </div>
+
+
+    <div class="columns"></div>
+  </div>
+  <div class="row">
+      
+
+
+  <div class="large-3 small-12 columns gallery-item">
+    <a class="software-entry-link block-wrapper-link fade" title="Bueller" href="http://devpost.com/software/bueller">
+      <div class="software-entry gallery-entry clearfix" id="submission_17933">
+        <aside class="entry-badge">
+        </aside>
+
+        <figure>
+          <img alt="Bueller" class="thumbnail_image image-replacement" src="//challengepost-s3-challengepost.netdna-ssl.com/photos/production/solution_photos/000/066/215/datas/medium.png" />
+        </figure>
+
+        <div class="entry-state">
+        </div>
+
+        <div class="software-entry-name entry-body">
+          <h5>
+            Bueller
+            <span class="paragraph-end"></span>
+          </h5>
+
+          <p class="small tagline">
+            
+            <span class="paragraph-end"></span>
+          </p>
+
+          <p class="small">
+            <span nested_link="true" class="user-profile-link" data-nested-link="true" data-url="http://devpost.com/aroduribe">Alex Rodriguez</span>
+              &amp; 2 others
+          </p>
+        </div>
+      </div>
+</a>  </div>
+
+
+
+
+  <div class="large-3 small-12 columns gallery-item">
+    <a class="software-entry-link block-wrapper-link fade" title="CheapCheep" href="http://devpost.com/software/cheapcheep">
+      <div class="software-entry gallery-entry clearfix" id="submission_18120">
+        <aside class="entry-badge">
+        </aside>
+
+        <figure>
+          <img alt="CheapCheep" class="thumbnail_image image-replacement" src="//challengepost-s3-challengepost.netdna-ssl.com/photos/production/solution_photos/000/066/793/datas/medium.png" />
+        </figure>
+
+        <div class="entry-state">
+        </div>
+
+        <div class="software-entry-name entry-body">
+          <h5>
+            CheapCheep
+            <span class="paragraph-end"></span>
+          </h5>
+
+          <p class="small tagline">
+            
+            <span class="paragraph-end"></span>
+          </p>
+
+          <p class="small">
+            <span nested_link="true" class="user-profile-link" data-nested-link="true" data-url="http://devpost.com/m-smith">Matthew Smith</span>
+              &amp; 1 other
+          </p>
+        </div>
+      </div>
+</a>  </div>
+
+
+
+
+  <div class="large-3 small-12 columns gallery-item">
+    <a class="software-entry-link block-wrapper-link fade" title="Beacon" href="http://devpost.com/software/beacon--3">
+      <div class="software-entry gallery-entry clearfix" id="submission_18111">
+        <aside class="entry-badge">
+        </aside>
+
+        <figure>
+          <img alt="Beacon" class="thumbnail_image image-replacement" src="//challengepost-s3-challengepost.netdna-ssl.com/photos/production/solution_photos/000/066/834/datas/medium.png" />
+        </figure>
+
+        <div class="entry-state">
+        </div>
+
+        <div class="software-entry-name entry-body">
+          <h5>
+            Beacon
+            <span class="paragraph-end"></span>
+          </h5>
+
+          <p class="small tagline">
+            
+            <span class="paragraph-end"></span>
+          </p>
+
+          <p class="small">
+            <span nested_link="true" class="user-profile-link" data-nested-link="true" data-url="http://devpost.com/amwatson">Amanda Watson</span>
+              &amp; 2 others
+          </p>
+        </div>
+      </div>
+</a>  </div>
+
+
+
+
+  <div class="large-3 small-12 columns gallery-item">
+    <a class="software-entry-link block-wrapper-link fade" title="HereIWas" href="http://devpost.com/software/hereiwas">
+      <div class="software-entry gallery-entry clearfix" id="submission_18097">
+        <aside class="entry-badge">
+        </aside>
+
+        <figure>
+          <img alt="HereIWas" class="thumbnail_image image-replacement" src="//challengepost-s3-challengepost.netdna-ssl.com/photos/production/solution_photos/000/066/733/datas/medium.jpg" />
+        </figure>
+
+        <div class="entry-state">
+        </div>
+
+        <div class="software-entry-name entry-body">
+          <h5>
+            HereIWas
+            <span class="paragraph-end"></span>
+          </h5>
+
+          <p class="small tagline">
+            
+            <span class="paragraph-end"></span>
+          </p>
+
+          <p class="small">
+            <span nested_link="true" class="user-profile-link" data-nested-link="true" data-url="http://devpost.com/pav920">Pavleen Thukral</span>
+              &amp; 3 others
+          </p>
+        </div>
+      </div>
+</a>  </div>
+
+
+    <div class="columns"></div>
+  </div>
+  <div class="row">
+      
+
+
+  <div class="large-3 small-12 columns gallery-item">
+    <a class="software-entry-link block-wrapper-link fade" title="Anjoyd" href="http://devpost.com/software/anjoyd">
+      <div class="software-entry gallery-entry clearfix" id="submission_17865">
+        <aside class="entry-badge">
+        </aside>
+
+        <figure>
+          <img alt="Anjoyd" class="thumbnail_image image-replacement" src="//challengepost-s3-challengepost.netdna-ssl.com/photos/production/solution_photos/000/066/072/datas/medium.png" />
+        </figure>
+
+        <div class="entry-state">
+        </div>
+
+        <div class="software-entry-name entry-body">
+          <h5>
+            Anjoyd
+            <span class="paragraph-end"></span>
+          </h5>
+
+          <p class="small tagline">
+            
+            <span class="paragraph-end"></span>
+          </p>
+
+          <p class="small">
+            <span nested_link="true" class="user-profile-link" data-nested-link="true" data-url="http://devpost.com/jhilmd">Jeff Hilnbrand</span>
+              &amp; 3 others
+          </p>
+        </div>
+      </div>
+</a>  </div>
+
+
+
+
+  <div class="large-3 small-12 columns gallery-item">
+    <a class="software-entry-link block-wrapper-link fade" title="Copy+" href="http://devpost.com/software/copy">
+      <div class="software-entry gallery-entry clearfix" id="submission_18110">
+        <aside class="entry-badge">
+        </aside>
+
+        <figure>
+          <img alt="Copy+" class="thumbnail_image image-replacement" src="//challengepost-s3-challengepost.netdna-ssl.com/photos/production/solution_photos/000/066/828/datas/medium.jpg" />
+        </figure>
+
+        <div class="entry-state">
+        </div>
+
+        <div class="software-entry-name entry-body">
+          <h5>
+            Copy+
+            <span class="paragraph-end"></span>
+          </h5>
+
+          <p class="small tagline">
+            
+            <span class="paragraph-end"></span>
+          </p>
+
+          <p class="small">
+            <span nested_link="true" class="user-profile-link" data-nested-link="true" data-url="http://devpost.com/Fuzzy1">Adam Brody</span>
+          </p>
+        </div>
+      </div>
+</a>  </div>
+
+
+
+
+  <div class="large-3 small-12 columns gallery-item">
+    <a class="software-entry-link block-wrapper-link fade" title="Shock with Friends" href="http://devpost.com/software/shock-with-friends">
+      <div class="software-entry gallery-entry clearfix" id="submission_18113">
+        <aside class="entry-badge">
+        </aside>
+
+        <figure>
+          <img alt="Shock with Friends" class="thumbnail_image image-replacement" src="//challengepost-s3-challengepost.netdna-ssl.com/photos/production/solution_photos/000/066/801/datas/medium.JPG" />
+        </figure>
+
+        <div class="entry-state">
+        </div>
+
+        <div class="software-entry-name entry-body">
+          <h5>
+            Shock with Friends
+            <span class="paragraph-end"></span>
+          </h5>
+
+          <p class="small tagline">
+            
+            <span class="paragraph-end"></span>
+          </p>
+
+          <p class="small">
+            <span nested_link="true" class="user-profile-link" data-nested-link="true" data-url="http://devpost.com/sarthi">Sarthi Andley</span>
+              &amp; 3 others
+          </p>
+        </div>
+      </div>
+</a>  </div>
+
+
+
+
+  <div class="large-3 small-12 columns gallery-item">
+    <a class="software-entry-link block-wrapper-link fade" title="Spektiva" href="http://devpost.com/software/spektiva">
+      <div class="software-entry gallery-entry clearfix" id="submission_18098">
+        <aside class="entry-badge">
+        </aside>
+
+        <figure>
+          <img alt="Spektiva" class="thumbnail_image image-replacement" src="//challengepost-s3-challengepost.netdna-ssl.com/photos/production/solution_photos/000/066/827/datas/medium.png" />
+        </figure>
+
+        <div class="entry-state">
+        </div>
+
+        <div class="software-entry-name entry-body">
+          <h5>
+            Spektiva
+            <span class="paragraph-end"></span>
+          </h5>
+
+          <p class="small tagline">
+            
+            <span class="paragraph-end"></span>
+          </p>
+
+          <p class="small">
+            <span nested_link="true" class="user-profile-link" data-nested-link="true" data-url="http://devpost.com/thomas_johnston">Thomas Johnston</span>
+              &amp; 2 others
+          </p>
+        </div>
+      </div>
+</a>  </div>
+
+
+    <div class="columns"></div>
+  </div>
+  <div class="row">
+      
+
+
+  <div class="large-3 small-12 columns gallery-item">
+    <a class="software-entry-link block-wrapper-link fade" title="Stumbl" href="http://devpost.com/software/stumbl">
+      <div class="software-entry gallery-entry clearfix" id="submission_17859">
+        <aside class="entry-badge">
+        </aside>
+
+        <figure>
+          <img alt="Stumbl" class="thumbnail_image image-replacement" src="//challengepost-s3-challengepost.netdna-ssl.com/photos/production/solution_photos/000/066/825/datas/medium.jpg" />
+        </figure>
+
+        <div class="entry-state">
+        </div>
+
+        <div class="software-entry-name entry-body">
+          <h5>
+            Stumbl
+            <span class="paragraph-end"></span>
+          </h5>
+
+          <p class="small tagline">
+            
+            <span class="paragraph-end"></span>
+          </p>
+
+          <p class="small">
+            <span nested_link="true" class="user-profile-link" data-nested-link="true" data-url="http://devpost.com/atg_abhishek">Abhishek Gupta</span>
+              &amp; 3 others
+          </p>
+        </div>
+      </div>
+</a>  </div>
+
+
+
+
+  <div class="large-3 small-12 columns gallery-item">
+    <a class="software-entry-link block-wrapper-link fade" title="Photocrypt" href="http://devpost.com/software/photocrypt">
+      <div class="software-entry gallery-entry clearfix" id="submission_17934">
+        <aside class="entry-badge">
+        </aside>
+
+        <figure>
+          <img alt="Photocrypt" class="thumbnail_image image-replacement" src="//challengepost-s3-challengepost.netdna-ssl.com/photos/production/solution_photos/000/066/770/datas/medium.png" />
+        </figure>
+
+        <div class="entry-state">
+        </div>
+
+        <div class="software-entry-name entry-body">
+          <h5>
+            Photocrypt
+            <span class="paragraph-end"></span>
+          </h5>
+
+          <p class="small tagline">
+            
+            <span class="paragraph-end"></span>
+          </p>
+
+          <p class="small">
+            <span nested_link="true" class="user-profile-link" data-nested-link="true" data-url="http://devpost.com/pxhanus">Patricia Hanus</span>
+              &amp; 3 others
+          </p>
+        </div>
+      </div>
+</a>  </div>
+
+
+
+
+  <div class="large-3 small-12 columns gallery-item">
+    <a class="software-entry-link block-wrapper-link fade" title="cumulus.af" href="http://devpost.com/software/cumulus-af">
+      <div class="software-entry gallery-entry clearfix" id="submission_18115">
+        <aside class="entry-badge">
+        </aside>
+
+        <figure>
+          <img alt="cumulus.af" class="thumbnail_image image-replacement" src="//challengepost-s3-challengepost.netdna-ssl.com/photos/production/solution_photos/000/066/696/datas/medium.png" />
+        </figure>
+
+        <div class="entry-state">
+        </div>
+
+        <div class="software-entry-name entry-body">
+          <h5>
+            cumulus.af
+            <span class="paragraph-end"></span>
+          </h5>
+
+          <p class="small tagline">
+            
+            <span class="paragraph-end"></span>
+          </p>
+
+          <p class="small">
+            <span nested_link="true" class="user-profile-link" data-nested-link="true" data-url="http://devpost.com/raymondjacobson">Raymond Jacobson</span>
+              &amp; 2 others
+          </p>
+        </div>
+      </div>
+</a>  </div>
+
+
+
+
+  <div class="large-3 small-12 columns gallery-item">
+    <a class="software-entry-link block-wrapper-link fade" title="Gapducate" href="http://devpost.com/software/gapducate">
+      <div class="software-entry gallery-entry clearfix" id="submission_18114">
+        <aside class="entry-badge">
+        </aside>
+
+        <figure>
+          <img alt="Gapducate" class="thumbnail_image image-replacement" src="//challengepost-s3-challengepost.netdna-ssl.com/photos/production/solution_photos/000/066/769/datas/medium.png" />
+        </figure>
+
+        <div class="entry-state">
+        </div>
+
+        <div class="software-entry-name entry-body">
+          <h5>
+            Gapducate
+            <span class="paragraph-end"></span>
+          </h5>
+
+          <p class="small tagline">
+            
+            <span class="paragraph-end"></span>
+          </p>
+
+          <p class="small">
+            <span nested_link="true" class="user-profile-link" data-nested-link="true" data-url="http://devpost.com/mujtaba">mujtaba arshad</span>
+          </p>
+        </div>
+      </div>
+</a>  </div>
+
+
+    <div class="columns"></div>
+  </div>
+  <div class="row">
+      
+
+
+  <div class="large-3 small-12 columns gallery-item">
+    <a class="software-entry-link block-wrapper-link fade" title="PolyGlass" href="http://devpost.com/software/polyglass">
+      <div class="software-entry gallery-entry clearfix" id="submission_18034">
+        <aside class="entry-badge">
+        </aside>
+
+        <figure>
+          <img alt="PolyGlass" class="thumbnail_image image-replacement" src="//challengepost-s3-challengepost.netdna-ssl.com/photos/production/solution_photos/000/066/826/datas/medium.png" />
+        </figure>
+
+        <div class="entry-state">
+        </div>
+
+        <div class="software-entry-name entry-body">
+          <h5>
+            PolyGlass
+            <span class="paragraph-end"></span>
+          </h5>
+
+          <p class="small tagline">
+            
+            <span class="paragraph-end"></span>
+          </p>
+
+          <p class="small">
+            <span nested_link="true" class="user-profile-link" data-nested-link="true" data-url="http://devpost.com/fractalcows">Catherine Ray</span>
+              &amp; 2 others
+          </p>
+        </div>
+      </div>
+</a>  </div>
+
+
+
+
+  <div class="large-3 small-12 columns gallery-item">
+    <a class="software-entry-link block-wrapper-link fade" title="Stock Watcher" href="http://devpost.com/software/stock-watcher">
+      <div class="software-entry gallery-entry clearfix" id="submission_18080">
+        <aside class="entry-badge">
+        </aside>
+
+        <figure>
+          <img alt="Stock Watcher" class="thumbnail_image image-replacement" src="//challengepost-s3-challengepost.netdna-ssl.com/photos/production/solution_photos/000/066/779/datas/medium.jpg" />
+        </figure>
+
+        <div class="entry-state">
+        </div>
+
+        <div class="software-entry-name entry-body">
+          <h5>
+            Stock Watcher
+            <span class="paragraph-end"></span>
+          </h5>
+
+          <p class="small tagline">
+            
+            <span class="paragraph-end"></span>
+          </p>
+
+          <p class="small">
+            <span nested_link="true" class="user-profile-link" data-nested-link="true" data-url="http://devpost.com/shyam2">Shyam Patel</span>
+              &amp; 3 others
+          </p>
+        </div>
+      </div>
+</a>  </div>
+
+
+
+
+  <div class="large-3 small-12 columns gallery-item">
+    <a class="software-entry-link block-wrapper-link fade" title="Outfitter" href="http://devpost.com/software/outfitter">
+      <div class="software-entry gallery-entry clearfix" id="submission_18112">
+        <aside class="entry-badge">
+        </aside>
+
+        <figure>
+          <img alt="Outfitter" class="thumbnail_image image-replacement" src="//challengepost-s3-challengepost.netdna-ssl.com/photos/production/solution_photos/000/066/789/datas/medium.jpg" />
+        </figure>
+
+        <div class="entry-state">
+        </div>
+
+        <div class="software-entry-name entry-body">
+          <h5>
+            Outfitter
+            <span class="paragraph-end"></span>
+          </h5>
+
+          <p class="small tagline">
+            
+            <span class="paragraph-end"></span>
+          </p>
+
+          <p class="small">
+            <span nested_link="true" class="user-profile-link" data-nested-link="true" data-url="http://devpost.com/ihaim">Ilse Haim</span>
+              &amp; 3 others
+          </p>
+        </div>
+      </div>
+</a>  </div>
+
+
+
+
+  <div class="large-3 small-12 columns gallery-item">
+    <a class="software-entry-link block-wrapper-link fade" title="Codetrix" href="http://devpost.com/software/codetrix">
+      <div class="software-entry gallery-entry clearfix" id="submission_18094">
+        <aside class="entry-badge">
+        </aside>
+
+        <figure>
+          <img alt="Codetrix" class="thumbnail_image image-replacement" src="//challengepost-s3-challengepost.netdna-ssl.com/photos/production/solution_photos/000/066/816/datas/medium.jpg" />
+        </figure>
+
+        <div class="entry-state">
+        </div>
+
+        <div class="software-entry-name entry-body">
+          <h5>
+            Codetrix
+            <span class="paragraph-end"></span>
+          </h5>
+
+          <p class="small tagline">
+            
+            <span class="paragraph-end"></span>
+          </p>
+
+          <p class="small">
+            <span nested_link="true" class="user-profile-link" data-nested-link="true" data-url="http://devpost.com/coderrick">Derrick Duncan</span>
+          </p>
+        </div>
+      </div>
+</a>  </div>
+
+
+    <div class="columns"></div>
+  </div>
+  <div class="row">
+      
+
+
+  <div class="large-3 small-12 columns gallery-item">
+    <a class="software-entry-link block-wrapper-link fade" title="ChaosNotes v3.0" href="http://devpost.com/software/chaosnotes-v3-0">
+      <div class="software-entry gallery-entry clearfix" id="submission_18106">
+        <aside class="entry-badge">
+        </aside>
+
+        <figure>
+          <img alt="ChaosNotes v3.0" class="thumbnail_image image-replacement" src="//challengepost-s3-challengepost.netdna-ssl.com/photos/production/challenge_thumbnails/000/074/055/datas/medium.png" />
+        </figure>
+
+        <div class="entry-state">
+        </div>
+
+        <div class="software-entry-name entry-body">
+          <h5>
+            ChaosNotes v3.0
+            <span class="paragraph-end"></span>
+          </h5>
+
+          <p class="small tagline">
+            
+            <span class="paragraph-end"></span>
+          </p>
+
+          <p class="small">
+            <span nested_link="true" class="user-profile-link" data-nested-link="true" data-url="http://devpost.com/Cortexelus">CJ Carr</span>
+          </p>
+        </div>
+      </div>
+</a>  </div>
+
+
+
+
+  <div class="large-3 small-12 columns gallery-item">
+    <a class="software-entry-link block-wrapper-link fade" title="fresh melodies" href="http://devpost.com/software/fresh-melodies">
+      <div class="software-entry gallery-entry clearfix" id="submission_18045">
+        <aside class="entry-badge">
+        </aside>
+
+        <figure>
+          <img alt="fresh melodies" class="thumbnail_image image-replacement" src="//challengepost-s3-challengepost.netdna-ssl.com/photos/production/solution_photos/000/066/562/datas/medium.png" />
+        </figure>
+
+        <div class="entry-state">
+        </div>
+
+        <div class="software-entry-name entry-body">
+          <h5>
+            fresh melodies
+            <span class="paragraph-end"></span>
+          </h5>
+
+          <p class="small tagline">
+            
+            <span class="paragraph-end"></span>
+          </p>
+
+          <p class="small">
+            <span nested_link="true" title="This user has been deleted" class="user-profile-deleted tiptip">deleted deleted</span>
+              &amp; 3 others
+          </p>
+        </div>
+      </div>
+</a>  </div>
+
+
+
+
+  <div class="large-3 small-12 columns gallery-item">
+    <a class="software-entry-link block-wrapper-link fade" title="Let&#39;s Go All Night!" href="http://devpost.com/software/let-s-go-all-night">
+      <div class="software-entry gallery-entry clearfix" id="submission_17937">
+        <aside class="entry-badge">
+        </aside>
+
+        <figure>
+          <img alt="Let&#39;s Go All Night!" class="thumbnail_image image-replacement" src="//challengepost-s3-challengepost.netdna-ssl.com/photos/production/solution_photos/000/066/744/datas/medium.png" />
+        </figure>
+
+        <div class="entry-state">
+        </div>
+
+        <div class="software-entry-name entry-body">
+          <h5>
+            Let&#39;s Go All Night!
+            <span class="paragraph-end"></span>
+          </h5>
+
+          <p class="small tagline">
+            
+            <span class="paragraph-end"></span>
+          </p>
+
+          <p class="small">
+            <span nested_link="true" class="user-profile-link" data-nested-link="true" data-url="http://devpost.com/dmaywest">Derek May-West</span>
+              &amp; 3 others
+          </p>
+        </div>
+      </div>
+</a>  </div>
+
+
+
+
+  <div class="large-3 small-12 columns gallery-item">
+    <a class="software-entry-link block-wrapper-link fade" title="PersImage" href="http://devpost.com/software/persimage">
+      <div class="software-entry gallery-entry clearfix" id="submission_18029">
+        <aside class="entry-badge">
+        </aside>
+
+        <figure>
+          <img alt="PersImage" class="thumbnail_image image-replacement" src="//challengepost-s3-challengepost.netdna-ssl.com/photos/production/solution_photos/000/066/822/datas/medium.png" />
+        </figure>
+
+        <div class="entry-state">
+        </div>
+
+        <div class="software-entry-name entry-body">
+          <h5>
+            PersImage
+            <span class="paragraph-end"></span>
+          </h5>
+
+          <p class="small tagline">
+            
+            <span class="paragraph-end"></span>
+          </p>
+
+          <p class="small">
+            <span nested_link="true" class="user-profile-link" data-nested-link="true" data-url="http://devpost.com/leobelkin">Cho-Hsien Leung</span>
+              &amp; 2 others
+          </p>
+        </div>
+      </div>
+</a>  </div>
+
+
+    <div class="columns"></div>
+  </div>
+
+      <div class="pagination-info">
+  <span class="items_info">
+  <p><b>37&nbsp;&ndash;&nbsp;72</b> of <b>284</b></p>
+</span>
+<span class="selection">
+  <ul class="pagination"><li class="prev previous_page "><a rel="prev start" href="/submissions?page=1">&laquo;</a></li> <li><a rel="prev start" href="/submissions?page=1">1</a></li> <li class="current"><a href="/submissions?page=2">2</a></li> <li><a rel="next" href="/submissions?page=3">3</a></li> <li><a href="/submissions?page=4">4</a></li> <li><a href="/submissions?page=5">5</a></li> <li class="unavailable"><a href="#"><span class="gap">&hellip;</span></a></li> <li><a href="/submissions?page=8">8</a></li> <li class="next next_page "><a rel="next" href="/submissions?page=3">&raquo;</a></li></ul>
+</span>
+
+</div>
+
+</div>
+
+
+
+                </section>
+          </section>
+
+          
+        </div>
+      </div>
+    </div>
+
+    
+  <footer id="devpost-footer">
+  <div class="row">
+    <div class="large-8 small-9 columns">
+      <nav id="site-footer-primary-nav">
+        <ul class="">
+          <li><a href="http://post.devpost.com/">Devpost for Organizations</a></li>
+          <li><a href="http://info.devpost.com/about">About</a></li>
+          <li><a href="http://info.devpost.com/careers">Careers</a></li>
+          <li><a href="http://blog.devpost.com/">Blog</a></li>
+          <li><a href="http://info.devpost.com/contact">Contact</a></li>
+          <li><a href="http://help.devpost.com/">Help</a></li>
+        </ul>
+      </nav>
+
+      <nav id="site-footer-legal">
+        <ul class="">
+          <li>
+            <a href="http://nytm.org/made" rel="nofollow" target="_blank">
+              <small>Made with <i class="ss-icon ss-heart"></i> in NYC</small>
+            </a>
+          </li>
+          <li><a href="http://info.devpost.com/privacy"><small>Privacy</small></a></li>
+          <li><a href="http://info.devpost.com/terms"><small>Terms</small></a></li>
+          <li><a href="http://info.devpost.com/guidelines"><small>Community Guidelines</small></a></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="large-4 small-3 columns">
+      <ul class="social-links">
+        <li><a href="https://twitter.com/devposthacks" target="_blank" class="ss-icon ss-social-circle ss-twitter"></a></li>
+        <li><a href="https://www.facebook.com/devposthacks" target="_blank" class="ss-icon ss-social-circle ss-facebook"></a></li>
+        <li><a href="http://instagram.com/devposthacks" target="_blank" class="ss-icon ss-social-circle ss-instagram"></a></li>
+      </ul>
+    </div>
+  </div>
+</footer>
+
+
+
+    <script src="//devpost0.assetspost.com/assets/reimagine2-855b18a08e74a1a9ea9309268739429a.js"></script>
+    <script src="//devpost0.assetspost.com/assets/challenges/reimagine_layout-11d47fabd19cbe1e806cd2112b9f9fcd.js"></script>
+
+    <script>
+  var _gaq = _gaq || [];
+
+  (function () {
+
+
+    _gaq.push(["cp._setDomainName","devpost.com"]);
+    _gaq.push(["cp._setAccount","UA-2233558-21"]);
+    _gaq.push(["cp._setAllowLinker",true]);
+    _gaq.push(["cp._require","inpage_linkid","//www.google-analytics.com/plugins/ga/inpage_linkid.js"]);
+
+    
+
+    _gaq.push(["cp._trackPageview"]);
+  })();
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+
+<script type="text/javascript" charset="utf-8">
+  (function() {
+    mixpanel.identify("4a231fb5f331edab54739f85e687f83dd8a2c192027f05eacaba94f74b2065e030fac67bac2edc039e29c441f8d0f3835aab");
+    mixpanel.register({});
+  })();
+</script>
+
+
+
+      <script type="text/javascript" charset="utf-8">
+    $(function() {
+      $("#search-bar select").change(function() {
+        $(this).closest("form").submit();
+      });
+    });
+  </script>
+
+
+
+    <script>
+      $(function onDocumentReady() {
+        CP.env.addRoutes({
+          follows_url: "http://devpost.com/follows",
+          new_software_url: "http://devpost.com/software/new",
+          notifications_url: "http://devpost.com/notifications"
+        });
+
+        new Reimagine2();
+
+          CP.NestedLink.setup();
+  CP.SendFormOnCommandEnter.setup($("#masqueradee"));
+  (function(inputs) {
+    if (typeof inputs.cp_autocomplete === "function") inputs.cp_autocomplete();
+    inputs.on('click', function(event) { return false; });
+  })($("#masqueradee"));
+  CP.TabbedNavigation.setup("#challenge-navigation .top-bar");
+var FollowButtonApp = new CP.FollowButtonApp({
+  user: {
+    id: 0,
+    screen_name: ""
+  },
+  urls: {
+    register_url: "https://secure.devpost.com/users/register",
+    user_follows_url: "http://devpost.com//follows"
+  }
+});
+
+FollowButtonApp.start();
+  var appOptions = {};
+
+
+  CP.Mn.app.start(appOptions);
+
+      });
+    </script>
+
+    <script src="//platform.twitter.com/oct.js" type="text/javascript"></script>
+<script type="text/javascript">twttr.conversion.trackPid('l6ngp', { tw_sale_amount: 0, tw_order_quantity: 0 });</script>
+<noscript>
+<img height="1" width="1" style="display:none;" alt="" src="https://analytics.twitter.com/i/adsct?txn_id=l6ngp&p_id=Twitter&tw_sale_amount=0&tw_order_quantity=0" />
+<img height="1" width="1" style="display:none;" alt="" src="//t.co/i/adsct?txn_id=l6ngp&p_id=Twitter&tw_sale_amount=0&tw_order_quantity=0" />
+</noscript>
+
+</body></html>

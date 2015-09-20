@@ -1,0 +1,103 @@
+/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/bs4/__init__.py:166: UserWarning: No parser was explicitly specified, so I'm using the best available HTML parser for this system ("html.parser"). This usually isn't a problem, but if you run this code on another system, or in a different virtual environment, it may use a different parser and behave differently.
+
+To get rid of this warning, change this:
+
+ BeautifulSoup([your markup])
+
+to this:
+
+ BeautifulSoup([your markup], "html.parser")
+
+  markup_type=markup_type))
+working on page: 1
+working on page: 2
+working on page: 3
+working on page: 4
+working on page: 5
+working on page: 6
+working on page: 7
+working on page: 8
+working on page: 9
+working on page: 10
+working on page: 11
+working on page: 12
+working on page: 13
+working on page: 14
+working on page: 15
+working on page: 16
+working on page: 17
+working on page: 18
+working on page: 19
+working on page: 20
+working on page: 21
+working on page: 22
+working on page: 23
+working on page: 24
+working on page: 25
+working on page: 26
+working on page: 27
+working on page: 28
+working on page: 29
+working on page: 30
+working on page: 31
+working on page: 32
+working on page: 33
+working on page: 34
+working on page: 35
+working on page: 36
+working on page: 37
+working on page: 38
+working on page: 39
+working on page: 40
+working on page: 41
+working on page: 42
+working on page: 43
+working on page: 44
+working on page: 45
+working on page: 46
+working on page: 47
+working on page: 48
+working on page: 49
+working on page: 50
+working on page: 51
+working on page: 52
+working on page: 53
+working on page: 54
+working on page: 55
+working on page: 56
+working on page: 57
+working on page: 58
+working on page: 59
+working on page: 60
+working on page: 61
+working on page: 62
+working on page: 63
+working on page: 64
+working on page: 65
+working on page: 66
+working on page: 67
+Traceback (most recent call last):
+  File "devpost_scraper.py", line 193, in <module>
+    projects = scraper.scrape_projects(pf = pf)
+  File "devpost_scraper.py", line 153, in scrape_projects
+    util.saveObjectsToPickleFile({'projects':projects},pf)
+  File "/Users/bschreck/hacking-hackathons/util.py", line 33, in saveObjectsToPickleFile
+    allData = pck.load(f)
+  File "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/pickle.py", line 1378, in load
+    return Unpickler(file).load()
+  File "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/pickle.py", line 858, in load
+    dispatch[key](self)
+  File "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/pickle.py", line 880, in load_eof
+    raise EOFError
+EOFError
+/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/bs4/__init__.py:166: UserWarning: No parser was explicitly specified, so I'm using the best available HTML parser for this system ("html.parser"). This usually isn't a problem, but if you run this code on another system, or in a different virtual environment, it may use a different parser and behave differently.
+
+To get rid of this warning, change this:
+
+ BeautifulSoup([your markup])
+
+to this:
+
+ BeautifulSoup([your markup], "html.parser")
+
+  markup_type=markup_type))
