@@ -73,6 +73,8 @@ class DevPostScraper(object):
         names = set()
         for page in xrange(1,37):
             r = util.getPage('http://hackmit.devpost.com/participants?page='+str(page))
+            if not r:
+                continue
 
             s = BeautifulSoup(r.text)
 
@@ -88,6 +90,8 @@ class DevPostScraper(object):
         names = set()
         for page in xrange(1,3000):
             r = util.getPage('http://devpost.com/hackathons?page='+str(page))
+            if not r:
+                continue
 
             s = BeautifulSoup(r.text)
             for r in s.findAll('article'):
@@ -125,6 +129,8 @@ class DevPostScraper(object):
         for page in xrange(startPage,endPage+1):
             print "working on page:", page
             r = util.getPage('http://devpost.com/software/search?page='+str(page))
+            if not r:
+                continue
 
             projects_dict= json.loads(r.text)
             for p in projects_dict['software']:
@@ -141,6 +147,8 @@ class DevPostScraper(object):
 
     def scrape_project(self, url):
         r = util.getPage(url)
+        if not r:
+            return None,None,None
         s = BeautifulSoup(r.text)
         hackathon = ''
         submissions = s.find(id='submissions')
@@ -171,6 +179,8 @@ class DevPostScraper(object):
 
     def scrape_user(self,url):
         r = util.getPage(url)
+        if not r:
+            return None, None, None
         s = BeautifulSoup(r.text)
         links_html = s.find(id='portfolio-user-links')
         title = ''
@@ -204,44 +214,44 @@ class DevPostScraper(object):
         return title, links, tags
     def scrape_github(self,url):
         r = util.getPage(url)
+        if not r:
+            return None
+        totalContributions = 0
+        numFollowers = 0
+        numFollowing = 0
+        numStarred = 0
+        s = BeautifulSoup(r.text)
+        for div in s.findAll('div'):
+            if 'class' in div.attrs and 'contrib-column-first' in div['class']:
+                for sub in div.findAll('span'):
+                    if 'class' in sub.attrs and 'contrib-number' in sub['class']:
+                        minusTotal = sub.string.split(" total")[0]
+                        minusComma = minusTotal.replace(' ','').replace(',','')
+                        totalContributions = int(minusComma)
+            if 'class' in div.attrs and 'vcard-stats' in div['class']:
+                for a in div.findAll('a'):
+                    if a['href'].find('followers') > -1:
+                        numFollowers = int(a.strong.string.replace(' ','').replace(',',''))
+                    elif a['href'].find('stars') > -1:
+                        numStarred = int(a.strong.string.replace(' ','').replace(',',''))
+                    elif a['href'].find('following') > -1:
+                        numFollowing = int(a.strong.string.replace(' ','').replace(',',''))
+        url += '?tab=repositories'
+        r = util.getPage(url)
+        numRepos = 0
         if r:
-            totalContributions = 0
-            numFollowers = 0
-            numFollowing = 0
-            numStarred = 0
             s = BeautifulSoup(r.text)
-            for div in s.findAll('div'):
-                if 'class' in div.attrs and 'contrib-column-first' in div['class']:
-                    for sub in div.findAll('span'):
-                        if 'class' in sub.attrs and 'contrib-number' in sub['class']:
-                            minusTotal = sub.string.split(" total")[0]
-                            minusComma = minusTotal.replace(' ','').replace(',','')
-                            totalContributions = int(minusComma)
-                if 'class' in div.attrs and 'vcard-stats' in div['class']:
-                    for a in div.findAll('a'):
-                        if a['href'].find('followers') > -1:
-                            numFollowers = int(a.strong.string.replace(' ','').replace(',',''))
-                        elif a['href'].find('stars') > -1:
-                            numStarred = int(a.strong.string.replace(' ','').replace(',',''))
-                        elif a['href'].find('following') > -1:
-                            numFollowing = int(a.strong.string.replace(' ','').replace(',',''))
-            url += '?tab=repositories'
-            r = util.getPage(url)
-            numRepos = 0
-            if r:
-                s = BeautifulSoup(r.text)
-                for h3 in s.findAll('h3'):
-                    if 'class' in h3.attrs and 'repo-list-name' in h3['class']:
-                        numRepos += 1
+            for h3 in s.findAll('h3'):
+                if 'class' in h3.attrs and 'repo-list-name' in h3['class']:
+                    numRepos += 1
 
-            return {
-                    'totalContributions': totalContributions,
-                    'numFollowing': numFollowing,
-                    'numFollowers': numFollowers,
-                    'numStarred': numStarred,
-                    'numRepos': numRepos
-                    }
-        return None
+        return {
+                'totalContributions': totalContributions,
+                'numFollowing': numFollowing,
+                'numFollowers': numFollowers,
+                'numStarred': numStarred,
+                'numRepos': numRepos
+                }
     def scrape_twitter(self,url):
         r = util.getPage(url)
         return None
