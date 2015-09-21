@@ -117,12 +117,12 @@ class DevPostScraper(object):
                             #print recent
 
 
-    def scrape_projects(self, pages= 1221,pf = 'projects.p'):
+    def scrape_projects(self, startPage = 1, endPage= 1221,pf = 'projects.p'):
 
         util.checkPickleFileExistsAndCreate(pf)
         names = set()
         projects = []
-        for page in xrange(1,pages+1):
+        for page in xrange(startPage,endPage+1):
             print "working on page:", page
             r = util.getPage('http://devpost.com/software/search?page='+str(page))
 
@@ -136,7 +136,7 @@ class DevPostScraper(object):
                 del p['slug']
                 del p['url']
                 projects.append(p)
-            #util.saveObjectsToPickleFile({'projects':projects},pf)
+        util.saveObjectsToPickleFile({'projects':projects},pf)
         return projects
 
     def scrape_project(self, url):
@@ -175,23 +175,25 @@ class DevPostScraper(object):
         links_html = s.find(id='portfolio-user-links')
         title = ''
         links = {}
-        for li in links_html.findAll('li'):
-            if not li.findAll('a'):
-                title = util.removeSpaceNewLine(li.get_text())
-            else:
-                if li.a:
-                    nameOfSite = util.removeSpaceNewLine(li.get_text())
-                    urlOfSite = li.a['href']
-                    if nameOfSite.lower() == 'github' or urlOfSite.find('github') > -1:
-                        info = self.scrape_github(urlOfSite)
-                    elif nameOfSite.lower() == 'twitter' or urlOfSite.find('twitter') > -1:
-                        info = self.scrape_twitter(urlOfSite)
-                    elif nameOfSite.lower() == 'linkedin' or urlOfSite.find('linkedin') > -1:
-                        info = self.scrape_linked_in(urlOfSite)
-                    else:
-                        info = self.scrape_arbitrary(urlOfSite)
+        if links_html:
+            for li in links_html.findAll('li'):
+                if not li.findAll('a'):
+                    title = util.removeSpaceNewLine(li.get_text())
+                else:
+                    if li.a:
+                        nameOfSite = util.removeSpaceNewLine(li.get_text())
+                        urlOfSite = li.a['href']
+                        if nameOfSite.lower() == 'github' or urlOfSite.find('github') > -1:
+                            info = self.scrape_github(urlOfSite)
+                            links[nameOfSite] = info
+                        #elif nameOfSite.lower() == 'twitter' or urlOfSite.find('twitter') > -1:
+                        #    info = self.scrape_twitter(urlOfSite)
+                        elif nameOfSite.lower() == 'linkedin' or urlOfSite.find('linkedin') > -1:
+                            info = self.scrape_linked_in(urlOfSite)
+                            links[nameOfSite] = info
+                        #else:
+                        #    info = self.scrape_arbitrary(urlOfSite)
 
-                    links[nameOfSite] = info
         tags_html = [t for t in s.findAll('ul') if 'class' in t.attrs and 'portfolio-tags' in t['class']]
         tags = []
         if tags_html:
@@ -203,16 +205,52 @@ class DevPostScraper(object):
     def scrape_github(self,url):
         r = util.getPage(url)
         if r:
-            print r.text
+            totalContributions = 0
+            numFollowers = 0
+            numFollowing = 0
+            numStarred = 0
             s = BeautifulSoup(r.text)
-            #return s.get_text()
+            for div in s.findAll('div'):
+                if 'class' in div.attrs and 'contrib-column-first' in div['class']:
+                    for sub in div.findAll('span'):
+                        if 'class' in sub.attrs and 'contrib-number' in sub['class']:
+                            minusTotal = sub.string.split(" total")[0]
+                            minusComma = minusTotal.replace(' ','').replace(',','')
+                            totalContributions = int(minusComma)
+                if 'class' in div.attrs and 'vcard-stats' in div['class']:
+                    for a in div.findAll('a'):
+                        if a['href'].find('followers') > -1:
+                            numFollowers = int(a.strong.string.replace(' ','').replace(',',''))
+                        elif a['href'].find('stars') > -1:
+                            numStarred = int(a.strong.string.replace(' ','').replace(',',''))
+                        elif a['href'].find('following') > -1:
+                            numFollowing = int(a.strong.string.replace(' ','').replace(',',''))
+            url += '?tab=repositories'
+            r = util.getPage(url)
+            numRepos = 0
+            if r:
+                s = BeautifulSoup(r.text)
+                for h3 in s.findAll('h3'):
+                    if 'class' in h3.attrs and 'repo-list-name' in h3['class']:
+                        numRepos += 1
+
+            return {
+                    'totalContributions': totalContributions,
+                    'numFollowing': numFollowing,
+                    'numFollowers': numFollowers,
+                    'numStarred': numStarred,
+                    'numRepos': numRepos
+                    }
         return None
     def scrape_twitter(self,url):
         r = util.getPage(url)
         return None
     def scrape_linked_in(self,url):
         args = ['/usr/local/bin/linkedin-scraper',url]
-        p = check_output(args)
+        try:
+            p = check_output(args)
+        except:
+            return None
         linkedInDict = json.loads(p)
         parsedLinkedInDict = {}
 
@@ -303,7 +341,7 @@ class DevPostScraper(object):
 
 
 scraper = DevPostScraper()
-pf = 'projects_tmp2.p'
-projects = scraper.scrape_projects(pages = 1221, pf = pf)
+pf = 'projects39.p'
+projects = scraper.scrape_projects(startPage = 39, endPage = 1221, pf = pf)
 #print scraper.scrape_project('http://devpost.com/software/kannek-ujkf5e')
 #scraper.scrape_user('http://devpost.com/Alejandronw')
